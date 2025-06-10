@@ -21,6 +21,32 @@
             border-radius: 12px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .language-selector select {
+            background-color: #ffffff;
+            border: 1px solid #d1d1d6;
+            border-radius: 8px;
+            padding: 8px 12px;
+            font-size: 14px;
+            color: #1d1d1f;
+            font-family: inherit;
+            cursor: pointer;
+            min-width: 120px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .language-selector select:hover {
+            background-color: #e8e8ed;
+        }
+        .language-selector select:focus {
+            outline: none;
+            border-color: #007aff;
+            box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.1);
+        }
         h1 {
             font-size: 28px;
             font-weight: 600;
@@ -49,6 +75,16 @@
                 margin: 0;
                 padding: 20px;
                 border-radius: 0;
+                padding-top: 60px;
+            }
+            .language-selector {
+                top: 10px;
+                right: 10px;
+            }
+            .language-selector select {
+                font-size: 13px;
+                padding: 6px 8px;
+                min-width: 100px;
             }
         }
     </style>
@@ -63,6 +99,7 @@
         
         let currentTranslation = null;
         let currentLocale = 'en-US';
+        let currentLanguage = 'en';
         
         // Function to detect user's preferred language
         function detectUserLanguage() {
@@ -101,6 +138,7 @@
                 
                 currentTranslation = translation;
                 currentLocale = SUPPORTED_LANGUAGES[language].locale;
+                currentLanguage = language;
                 return translation;
             } catch (error) {
                 console.error('Error loading translation:', error);
@@ -150,6 +188,29 @@
             container.innerHTML = html;
         }
         
+        // Function to update language selector
+        function updateLanguageSelector() {
+            const selector = document.getElementById('languageSelect');
+            if (selector) {
+                selector.value = currentLanguage;
+            }
+        }
+        
+        // Function to change language manually
+        async function changeLanguage(language) {
+            try {
+                console.log('Manually changing language to:', language);
+                const translation = await loadTranslation(language);
+                renderContent(translation);
+                updateContactEmails();
+                updateEffectiveDate();
+                updateLanguageSelector();
+                console.log('Language changed successfully');
+            } catch (error) {
+                console.error('Failed to change language:', error);
+            }
+        }
+        
         // Function to replace email placeholders
         function updateContactEmails() {
             const emailElements = document.querySelectorAll('.contact-email');
@@ -184,6 +245,8 @@
                 renderContent(translation);
                 updateContactEmails();
                 updateEffectiveDate();
+                updateLanguageSelector();
+                setupLanguageSelector();
                 console.log('App initialized successfully');
             } catch (error) {
                 console.error('Failed to initialize app:', error);
@@ -194,6 +257,8 @@
                     renderContent(translation);
                     updateContactEmails();
                     updateEffectiveDate();
+                    updateLanguageSelector();
+                    setupLanguageSelector();
                     console.log('Fallback successful');
                 } catch (fallbackError) {
                     console.error('Failed to load fallback translation:', fallbackError);
@@ -202,11 +267,30 @@
             }
         }
         
+        // Function to setup language selector event listener
+        function setupLanguageSelector() {
+            const selector = document.getElementById('languageSelect');
+            if (selector) {
+                selector.addEventListener('change', function(event) {
+                    const selectedLanguage = event.target.value;
+                    changeLanguage(selectedLanguage);
+                });
+            }
+        }
+        
         // Start the application when DOM is loaded
         document.addEventListener('DOMContentLoaded', initializeApp);
     </script>
 </head>
 <body>
+    <div class="language-selector">
+        <select id="languageSelect">
+            <option value="en">English</option>
+            <option value="pt">Português</option>
+            <option value="es">Español</option>
+        </select>
+    </div>
+    
     <div class="container">
         <!-- Content will be loaded dynamically based on user's language preference -->
     </div>
