@@ -1,0 +1,81 @@
+{
+  "language": "es",
+  "languageName": "Español",
+  "title": "Política de Privacidad",
+  "intro": "Esta política de privacidad se aplica a la aplicación TimePro (en adelante denominada \"Aplicación\") para dispositivos móviles que fue creada por Thompson Costa Honorato (en adelante denominado \"Proveedor de Servicios\") como un servicio Comercial. Este servicio está destinado para uso \"TAL COMO ESTÁ\".",
+  "sections": [
+    {
+      "title": "¿Qué información obtiene la Aplicación y cómo se utiliza?",
+      "content": [
+        "La Aplicación almacena las preferencias del usuario (configuraciones) e historial de cálculos localmente en su dispositivo utilizando UserDefaults. Estos datos permanecen únicamente en su dispositivo y no se transmiten a servidores externos. Estos datos locales se utilizan para proporcionar la funcionalidad principal de la aplicación, incluyendo guardar sus configuraciones preferidas y mantener un historial de sus cálculos.",
+        "Solo para fines de soporte al cliente, cuando elige contactar al soporte a través de la función de correo electrónico de la aplicación, la siguiente información del dispositivo puede incluirse en su correo de soporte para ayudarnos a atenderle mejor:",
+        {
+          "type": "list",
+          "items": [
+            "Modelo del dispositivo (ej: iPhone 15 Pro)",
+            "Versión de iOS (ej: iOS 17.0)",
+            "Versión de la aplicación",
+            "Configuraciones de localización/idioma del dispositivo"
+          ]
+        },
+        "Esta información del dispositivo solo se comparte cuando usted voluntariamente envía un correo de soporte y se utiliza únicamente para proporcionar asistencia técnica. No se recopilan ni transmiten identificadores personales a menos que usted elija incluirlos en su mensaje de soporte."
+      ]
+    },
+    {
+      "title": "Almacenamiento de Datos Locales",
+      "content": [
+        "La aplicación almacena preferencias e historial de cálculos localmente en su dispositivo. Estos datos solo son accesibles por la Aplicación y se eliminan cuando desinstala la Aplicación. No hay identificadores personales asociados con estos datos."
+      ]
+    },
+    {
+      "title": "¿La Aplicación recopila información precisa de ubicación en tiempo real del dispositivo?",
+      "content": [
+        "Esta Aplicación no recopila información precisa sobre la ubicación de su dispositivo móvil."
+      ]
+    },
+    {
+      "title": "¿Los terceros ven y/o tienen acceso a la información obtenida por la Aplicación?",
+      "content": [
+        "No se comparten datos automáticamente con terceros. Todas las preferencias del usuario e historial de cálculos se almacenan localmente en su dispositivo y no se transmiten a otros lugares.",
+        "Cuando voluntariamente envía un correo de soporte a través de la aplicación, la información del dispositivo (modelo del dispositivo, versión de iOS, versión de la aplicación y configuraciones de localización) puede incluirse en su correo a su proveedor de correo electrónico y a nuestro equipo de soporte. Esta información solo se comparte cuando elige contactar al soporte y se utiliza exclusivamente para proporcionar asistencia técnica."
+      ]
+    },
+    {
+      "title": "¿Cuáles son mis derechos de exclusión?",
+      "content": [
+        "Puede detener toda recopilación de información por parte de la Aplicación fácilmente desinstalándola. Puede utilizar los procesos estándar de desinstalación que pueden estar disponibles como parte de su dispositivo móvil o a través del mercado de aplicaciones móviles o red."
+      ]
+    },
+    {
+      "title": "Niños",
+      "content": [
+        "La Aplicación no se utiliza para solicitar conscientemente datos de niños menores de 13 años o comercializar con ellos. El Proveedor de Servicios no recopila conscientemente información de identificación personal de niños. El Proveedor de Servicios alienta a todos los niños a nunca enviar información de identificación personal a través de la Aplicación y/o Servicios. El Proveedor de Servicios alienta a los padres y tutores legales a supervisar el uso de Internet de sus hijos y ayudar a hacer cumplir esta Política instruyendo a sus hijos a nunca proporcionar información de identificación personal a través de la Aplicación y/o Servicios sin su permiso. Si tiene motivos para creer que un niño ha proporcionado información de identificación personal al Proveedor de Servicios a través de la Aplicación y/o Servicios, póngase en contacto con el Proveedor de Servicios ({{email}}) para que puedan tomar las acciones necesarias. También debe tener al menos 16 años de edad para consentir el procesamiento de su información de identificación personal en su país (en algunos países, podemos permitir que su padre o tutor lo haga en su nombre)."
+      ]
+    },
+    {
+      "title": "Seguridad",
+      "content": [
+        "El Proveedor de Servicios está preocupado por salvaguardar la confidencialidad de su información. Dado que la Aplicación almacena datos principalmente localmente en su dispositivo y no los transmite automáticamente, existe un riesgo mínimo de que personas no autorizadas accedan a sus datos. La información del dispositivo incluida en correos de soporte voluntarios se transmite utilizando protocolos estándar de seguridad de correo electrónico y se utiliza únicamente para proporcionar asistencia al cliente."
+      ]
+    },
+    {
+      "title": "Cambios",
+      "content": [
+        "Esta Política de Privacidad puede actualizarse de vez en cuando por cualquier motivo. El Proveedor de Servicios le notificará cualquier cambio en su Política de Privacidad actualizando esta página con la nueva Política de Privacidad. Se le aconseja consultar esta Política de Privacidad regularmente para cualquier cambio, ya que el uso continuado se considera aprobación de todos los cambios."
+      ]
+    },
+    {
+      "title": "Su Consentimiento",
+      "content": [
+        "Al usar la Aplicación, está consintiendo el procesamiento de su información como se establece en esta Política de Privacidad ahora y según sea modificada por el Proveedor de Servicios."
+      ]
+    },
+    {
+      "title": "Contáctanos",
+      "content": [
+        "Si tiene alguna pregunta sobre privacidad mientras usa la Aplicación, o tiene preguntas sobre las prácticas, póngase en contacto con el Proveedor de Servicios por correo electrónico a {{email}}."
+      ]
+    }
+  ],
+  "footer": "Esta política de privacidad es efectiva a partir de {{date}}"
+}
