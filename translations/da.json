@@ -1,81 +1,81 @@
 {
   "language": "da",
   "languageName": "Dansk",
-  "title": "[TRANSLATION NEEDED] Privacy Policy",
-  "intro": "[TRANSLATION NEEDED] This privacy policy applies to the TimePro app (hereby referred to as \"Application\") for mobile devices that was created by Thompson Costa Honorato (hereby referred to as \"Service Provider\") as a Commercial service. This service is intended for use \"AS IS\".",
+  "title": "Privatlivspolitik",
+  "intro": "Denne privatlivspolitik gælder for TimePro-appen (herefter kaldet \"Applikationen\") til mobile enheder, der blev oprettet af Thompson Costa Honorato (herefter kaldet \"Tjenesteudbyder\") som en kommerciel tjeneste. Denne tjeneste er beregnet til brug \"SOM DEN ER\".",
   "sections": [
     {
-      "title": "[TRANSLATION NEEDED] What information does the Application obtain and how is it used?",
+      "title": "Hvilke oplysninger indhenter applikationen, og hvordan bruges de?",
       "content": [
-        "[TRANSLATION NEEDED] The Application stores user preferences (settings) and calculation history locally on your device using UserDefaults. This data remains only on your device and is not transmitted to any external servers. This local data is used to provide the core functionality of the app, including saving your preferred settings and maintaining a history of your calculations.",
-        "[TRANSLATION NEEDED] For customer support purposes only, when you choose to contact support through the app's email feature, the following device information may be included in your support email to help us assist you better:",
+        "Applikationen gemmer brugerindstillinger og beregningshistorik lokalt på din enhed ved hjælp af UserDefaults. Disse data forbliver kun på din enhed og overføres ikke til eksterne servere. Disse lokale data bruges til at levere appens kernefunktionalitet, herunder at gemme dine foretrukne indstillinger og vedligeholde en historik over dine beregninger.",
+        "Kun til kundesupportformål, når du vælger at kontakte support gennem appens e-mailfunktion, kan følgende enhedsoplysninger være inkluderet i din support-e-mail for at hjælpe os med at assistere dig bedre:",
         {
           "type": "list",
           "items": [
-            "[TRANSLATION NEEDED] Device model (e.g., iPhone 15 Pro)",
-            "[TRANSLATION NEEDED] iOS version (e.g., iOS 17.0)",
-            "[TRANSLATION NEEDED] App version",
-            "[TRANSLATION NEEDED] Device locale/language settings"
+            "Enhedsmodel (f.eks. iPhone 15 Pro)",
+            "iOS-version (f.eks. iOS 17.0)",
+            "App-version",
+            "Enhedens sprog/sprogindstillinger"
           ]
         },
-        "[TRANSLATION NEEDED] This device information is only shared when you voluntarily send a support email and is used solely to provide technical assistance. No personal identifiers are collected or transmitted unless you choose to include them in your support message."
+        "Disse enhedsoplysninger deles kun, når du frivilligt sender en support-e-mail og bruges udelukkende til at levere teknisk assistance. Der indsamles eller overføres ingen personlige identifikatorer, medmindre du vælger at inkludere dem i din supportbesked."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Local Data Storage",
+      "title": "Lokal datalagring",
       "content": [
-        "[TRANSLATION NEEDED] The application stores preferences and calculation history locally on your device. This data is only accessible by the Application and is deleted when you uninstall the Application. No personal identifiers are associated with these data."
+        "Applikationen gemmer indstillinger og beregningshistorik lokalt på din enhed. Disse data er kun tilgængelige for applikationen og slettes, når du afinstallerer applikationen. Ingen personlige identifikatorer er forbundet med disse data."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Does the Application collect precise real time location information of the device?",
+      "title": "Indsamler applikationen præcise realtidsoplysninger om enhedens placering?",
       "content": [
-        "[TRANSLATION NEEDED] This Application does not collect precise information about the location of your mobile device."
+        "Denne applikation indsamler ikke præcise oplysninger om din mobile enheds placering."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Do third parties see and/or have access to information obtained by the Application?",
+      "title": "Kan tredjeparter se og/eller få adgang til oplysninger indhentet af applikationen?",
       "content": [
-        "[TRANSLATION NEEDED] No data is automatically shared with third parties. All user preferences and calculation history are stored locally on your device and are not transmitted elsewhere.",
-        "[TRANSLATION NEEDED] When you voluntarily send a support email through the app, device information (device model, iOS version, app version, and locale settings) may be included in your email to your email provider and to our support team. This information is only shared when you choose to contact support and is used exclusively for providing technical assistance."
+        "Ingen data deles automatisk med tredjeparter. Alle brugerindstillinger og beregningshistorik gemmes lokalt på din enhed og overføres ikke andre steder.",
+        "Når du frivilligt sender en support-e-mail gennem appen, kan enhedsoplysninger (enhedsmodel, iOS-version, app-version og sprogindstillinger) være inkluderet i din e-mail til din e-mailudbyder og til vores supportteam. Disse oplysninger deles kun, når du vælger at kontakte support og bruges udelukkende til at levere teknisk assistance."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] What are my opt-out rights?",
+      "title": "Hvad er mine fravalgsrettigheder?",
       "content": [
-        "[TRANSLATION NEEDED] You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes that may be available as part of your mobile device or via the mobile application marketplace or network."
+        "Du kan nemt stoppe al indsamling af oplysninger fra applikationen ved at afinstallere den. Du kan bruge de standardafinstallationsprocesser, der måtte være tilgængelige som en del af din mobile enhed eller via den mobile applikationsmarkedsplads eller netværk."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Children",
+      "title": "Børn",
       "content": [
-        "[TRANSLATION NEEDED] The Application is not used to knowingly solicit data from or market to children under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourages parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider ({{email}}) so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries, we may allow your parent or guardian to do so on your behalf)."
+        "Applikationen bruges ikke til bevidst at indhente data fra eller markedsføre til børn under 13 år. Tjenesteudbyderen indsamler ikke bevidst personligt identificerbare oplysninger fra børn. Tjenesteudbyderen opfordrer alle børn til aldrig at indsende personligt identificerbare oplysninger gennem applikationen og/eller tjenesterne. Tjenesteudbyderen opfordrer forældre og værger til at overvåge deres børns internetbrug og til at hjælpe med at håndhæve denne politik ved at instruere deres børn i aldrig at give personligt identificerbare oplysninger gennem applikationen og/eller tjenesterne uden deres tilladelse. Hvis du har grund til at tro, at et barn har givet personligt identificerbare oplysninger til tjenesteudbyderen gennem applikationen og/eller tjenesterne, bedes du kontakte tjenesteudbyderen ({{email}}), så de kan træffe de nødvendige foranstaltninger. Du skal også være mindst 16 år gammel for at give samtykke til behandling af dine personligt identificerbare oplysninger i dit land (i nogle lande kan vi tillade din forælder eller værge at gøre det på dine vegne)."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Security",
+      "title": "Sikkerhed",
       "content": [
-        "[TRANSLATION NEEDED] The Service Provider is concerned about safeguarding the confidentiality of your information. Since the Application primarily stores data locally on your device and does not automatically transmit it, there is minimal risk of your data being accessed by unauthorized individuals. Device information included in voluntary support emails is transmitted using standard email security protocols and is only used for providing customer assistance."
+        "Tjenesteudbyderen er optaget af at beskytte fortroligheden af dine oplysninger. Da applikationen primært gemmer data lokalt på din enhed og ikke automatisk overfører dem, er der minimal risiko for, at dine data tilgås af uautoriserede personer. Enhedsoplysninger inkluderet i frivillige support-e-mails overføres ved hjælp af standard e-mailsikkerhedsprotokoller og bruges kun til at levere kundeassistance."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Changes",
+      "title": "Ændringer",
       "content": [
-        "[TRANSLATION NEEDED] This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to their Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes."
+        "Denne privatlivspolitik kan opdateres fra tid til anden af enhver grund. Tjenesteudbyderen vil informere dig om eventuelle ændringer i deres privatlivspolitik ved at opdatere denne side med den nye privatlivspolitik. Du rådes til at konsultere denne privatlivspolitik regelmæssigt for eventuelle ændringer, da fortsat brug betragtes som godkendelse af alle ændringer."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Your Consent",
+      "title": "Dit samtykke",
       "content": [
-        "[TRANSLATION NEEDED] By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by the Service Provider."
+        "Ved at bruge applikationen giver du samtykke til behandling af dine oplysninger som angivet i denne privatlivspolitik nu og som ændret af tjenesteudbyderen."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Contact Us",
+      "title": "Kontakt os",
       "content": [
-        "[TRANSLATION NEEDED] If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at {{email}}."
+        "Hvis du har spørgsmål vedrørende privatliv, mens du bruger applikationen, eller har spørgsmål om praksisserne, bedes du kontakte tjenesteudbyderen via e-mail på {{email}}."
       ]
     }
   ],
-  "footer": "[TRANSLATION NEEDED] This privacy policy is effective as of {{date}}"
+  "footer": "Denne privatlivspolitik er gældende fra {{date}}"
 }
