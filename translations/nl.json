@@ -1,81 +1,81 @@
 {
   "language": "nl",
   "languageName": "Nederlands",
-  "title": "[TRANSLATION NEEDED] Privacy Policy",
-  "intro": "[TRANSLATION NEEDED] This privacy policy applies to the TimePro app (hereby referred to as \"Application\") for mobile devices that was created by Thompson Costa Honorato (hereby referred to as \"Service Provider\") as a Commercial service. This service is intended for use \"AS IS\".",
+  "title": "Privacybeleid",
+  "intro": "Dit privacybeleid is van toepassing op de TimePro-app (hierna te noemen \"Applicatie\") voor mobiele apparaten die werd gecreëerd door Thompson Costa Honorato (hierna te noemen \"Dienstverlener\") als een commerciële dienst. Deze dienst is bedoeld voor gebruik \"AS IS\".",
   "sections": [
     {
-      "title": "[TRANSLATION NEEDED] What information does the Application obtain and how is it used?",
+      "title": "Welke informatie verkrijgt de Applicatie en hoe wordt deze gebruikt?",
       "content": [
-        "[TRANSLATION NEEDED] The Application stores user preferences (settings) and calculation history locally on your device using UserDefaults. This data remains only on your device and is not transmitted to any external servers. This local data is used to provide the core functionality of the app, including saving your preferred settings and maintaining a history of your calculations.",
-        "[TRANSLATION NEEDED] For customer support purposes only, when you choose to contact support through the app's email feature, the following device information may be included in your support email to help us assist you better:",
+        "De Applicatie slaat gebruikersvoorkeuren (instellingen) en berekeningsgeschiedenis lokaal op uw apparaat op met behulp van UserDefaults. Deze gegevens blijven alleen op uw apparaat en worden niet verzonden naar externe servers. Deze lokale gegevens worden gebruikt om de kernfunctionaliteit van de app te bieden, inclusief het opslaan van uw voorkeurseinstellingen en het bijhouden van een geschiedenis van uw berekeningen.",
+        "Uitsluitend voor klantenservice doeleinden, wanneer u ervoor kiest om contact op te nemen met de ondersteuning via de e-mailfunctie van de app, kan de volgende apparaatinformatie worden opgenomen in uw ondersteunings-e-mail om u beter te kunnen helpen:",
         {
           "type": "list",
           "items": [
-            "[TRANSLATION NEEDED] Device model (e.g., iPhone 15 Pro)",
-            "[TRANSLATION NEEDED] iOS version (e.g., iOS 17.0)",
-            "[TRANSLATION NEEDED] App version",
-            "[TRANSLATION NEEDED] Device locale/language settings"
+            "Apparaatmodel (bijv. iPhone 15 Pro)",
+            "iOS-versie (bijv. iOS 17.0)",
+            "App-versie",
+            "Apparaat lokalisatie/taalinstellingen"
           ]
         },
-        "[TRANSLATION NEEDED] This device information is only shared when you voluntarily send a support email and is used solely to provide technical assistance. No personal identifiers are collected or transmitted unless you choose to include them in your support message."
+        "Deze apparaatinformatie wordt alleen gedeeld wanneer u vrijwillig een ondersteunings-e-mail verzendt en wordt uitsluitend gebruikt om technische assistentie te bieden. Er worden geen persoonlijke identificatiegegevens verzameld of verzonden, tenzij u ervoor kiest om deze in uw ondersteuningsbericht op te nemen."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Local Data Storage",
+      "title": "Lokale gegevensopslag",
       "content": [
-        "[TRANSLATION NEEDED] The application stores preferences and calculation history locally on your device. This data is only accessible by the Application and is deleted when you uninstall the Application. No personal identifiers are associated with these data."
+        "De applicatie slaat voorkeuren en berekeningsgeschiedenis lokaal op uw apparaat op. Deze gegevens zijn alleen toegankelijk voor de Applicatie en worden verwijderd wanneer u de Applicatie deïnstalleert. Er worden geen persoonlijke identificatiegegevens gekoppeld aan deze gegevens."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Does the Application collect precise real time location information of the device?",
+      "title": "Verzamelt de Applicatie precieze realtime locatie-informatie van het apparaat?",
       "content": [
-        "[TRANSLATION NEEDED] This Application does not collect precise information about the location of your mobile device."
+        "Deze Applicatie verzamelt geen precieze informatie over de locatie van uw mobiele apparaat."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Do third parties see and/or have access to information obtained by the Application?",
+      "title": "Zien derden de informatie die door de Applicatie wordt verkregen en/of hebben zij er toegang toe?",
       "content": [
-        "[TRANSLATION NEEDED] No data is automatically shared with third parties. All user preferences and calculation history are stored locally on your device and are not transmitted elsewhere.",
-        "[TRANSLATION NEEDED] When you voluntarily send a support email through the app, device information (device model, iOS version, app version, and locale settings) may be included in your email to your email provider and to our support team. This information is only shared when you choose to contact support and is used exclusively for providing technical assistance."
+        "Er worden geen gegevens automatisch gedeeld met derden. Alle gebruikersvoorkeuren en berekeningsgeschiedenis worden lokaal op uw apparaat opgeslagen en worden niet elders verzonden.",
+        "Wanneer u vrijwillig een ondersteunings-e-mail verzendt via de app, kan apparaatinformatie (apparaatmodel, iOS-versie, app-versie en lokalisatie-instellingen) worden opgenomen in uw e-mail naar uw e-mailprovider en naar ons ondersteuningsteam. Deze informatie wordt alleen gedeeld wanneer u ervoor kiest om contact op te nemen met de ondersteuning en wordt uitsluitend gebruikt voor het bieden van technische assistentie."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] What are my opt-out rights?",
+      "title": "Wat zijn mijn opt-out rechten?",
       "content": [
-        "[TRANSLATION NEEDED] You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes that may be available as part of your mobile device or via the mobile application marketplace or network."
+        "U kunt alle informatieverzameling door de Applicatie eenvoudig stoppen door deze te deïnstalleren. U kunt de standaard deïnstallatieprocedures gebruiken die mogelijk beschikbaar zijn als onderdeel van uw mobiele apparaat of via de mobiele applicatie-marktplaats of netwerk."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Children",
+      "title": "Kinderen",
       "content": [
-        "[TRANSLATION NEEDED] The Application is not used to knowingly solicit data from or market to children under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourages parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider ({{email}}) so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries, we may allow your parent or guardian to do so on your behalf)."
+        "De Applicatie wordt niet gebruikt om bewust gegevens te verzamelen van of marketing te richten op kinderen onder de 13 jaar. De Dienstverlener verzamelt niet bewust persoonlijk identificeerbare informatie van kinderen. De Dienstverlener moedigt alle kinderen aan om nooit persoonlijk identificeerbare informatie in te dienen via de Applicatie en/of Diensten. De Dienstverlener moedigt ouders en wettelijke voogden aan om het internetgebruik van hun kinderen te monitoren en te helpen bij het handhaven van dit Beleid door hun kinderen te instrueren om nooit persoonlijk identificeerbare informatie te verstrekken via de Applicatie en/of Diensten zonder hun toestemming. Als u reden heeft om te geloven dat een kind persoonlijk identificeerbare informatie heeft verstrekt aan de Dienstverlener via de Applicatie en/of Diensten, neem dan contact op met de Dienstverlener ({{email}}) zodat zij de nodige acties kunnen ondernemen. U moet ook ten minste 16 jaar oud zijn om toestemming te geven voor de verwerking van uw persoonlijk identificeerbare informatie in uw land (in sommige landen kunnen we uw ouder of voogd toestaan dit namens u te doen)."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Security",
+      "title": "Beveiliging",
       "content": [
-        "[TRANSLATION NEEDED] The Service Provider is concerned about safeguarding the confidentiality of your information. Since the Application primarily stores data locally on your device and does not automatically transmit it, there is minimal risk of your data being accessed by unauthorized individuals. Device information included in voluntary support emails is transmitted using standard email security protocols and is only used for providing customer assistance."
+        "De Dienstverlener is bezorgd over het waarborgen van de vertrouwelijkheid van uw informatie. Omdat de Applicatie voornamelijk gegevens lokaal op uw apparaat opslaat en deze niet automatisch verzendt, is er minimaal risico dat uw gegevens worden benaderd door onbevoegde personen. Apparaatinformatie die is opgenomen in vrijwillige ondersteunings-e-mails wordt verzonden met behulp van standaard e-mailbeveiligingsprotocollen en wordt alleen gebruikt voor het bieden van klantenassistentie."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Changes",
+      "title": "Wijzigingen",
       "content": [
-        "[TRANSLATION NEEDED] This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to their Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes."
+        "Dit Privacybeleid kan van tijd tot tijd om welke reden dan ook worden bijgewerkt. De Dienstverlener zal u op de hoogte stellen van eventuele wijzigingen in hun Privacybeleid door deze pagina bij te werken met het nieuwe Privacybeleid. U wordt geadviseerd dit Privacybeleid regelmatig te raadplegen voor eventuele wijzigingen, aangezien voortgezet gebruik wordt beschouwd als goedkeuring van alle wijzigingen."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Your Consent",
+      "title": "Uw toestemming",
       "content": [
-        "[TRANSLATION NEEDED] By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by the Service Provider."
+        "Door de Applicatie te gebruiken, stemt u in met de verwerking van uw informatie zoals uiteengezet in dit Privacybeleid nu en zoals gewijzigd door de Dienstverlener."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Contact Us",
+      "title": "Contact opnemen",
       "content": [
-        "[TRANSLATION NEEDED] If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at {{email}}."
+        "Als u vragen heeft betreffende privacy tijdens het gebruik van de Applicatie, of vragen heeft over de praktijken, neem dan contact op met de Dienstverlener via e-mail op {{email}}."
       ]
     }
   ],
-  "footer": "[TRANSLATION NEEDED] This privacy policy is effective as of {{date}}"
+  "footer": "Dit privacybeleid is van kracht vanaf {{date}}"
 }
