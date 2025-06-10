@@ -70,6 +70,26 @@
             font-size: 14px;
             color: #86868b;
         }
+        /* RTL support */
+        [dir="rtl"] {
+            text-align: right;
+        }
+        [dir="rtl"] .container {
+            text-align: right;
+        }
+        [dir="rtl"] h1,
+        [dir="rtl"] h2 {
+            text-align: right;
+        }
+        [dir="rtl"] .footer {
+            text-align: right;
+        }
+        /* Keep language selector on right side even for RTL */
+        [dir="rtl"] .language-selector {
+            right: 20px;
+            left: auto;
+        }
+        
         @media (max-width: 600px) {
             .container {
                 margin: 0;
@@ -85,6 +105,11 @@
                 font-size: 13px;
                 padding: 6px 8px;
                 min-width: 100px;
+            }
+            /* Keep language selector on right side even for RTL on mobile */
+            [dir="rtl"] .language-selector {
+                right: 10px;
+                left: auto;
             }
         }
     </style>
@@ -243,6 +268,14 @@
         // Function to render content from translation
         function renderContent(translation) {
             document.documentElement.lang = translation.language;
+            
+            // Set RTL direction for Arabic
+            if (translation.language === 'ar') {
+                document.documentElement.dir = 'rtl';
+            } else {
+                document.documentElement.dir = 'ltr';
+            }
+            
             document.title = `TimePro ${translation.title}`;
             
             const container = document.querySelector('.container');
