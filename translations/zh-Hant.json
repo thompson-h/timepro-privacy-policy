@@ -1,81 +1,81 @@
 {
   "language": "zh-Hant",
   "languageName": "繁體中文",
-  "title": "[TRANSLATION NEEDED] Privacy Policy",
-  "intro": "[TRANSLATION NEEDED] This privacy policy applies to the TimePro app (hereby referred to as \"Application\") for mobile devices that was created by Thompson Costa Honorato (hereby referred to as \"Service Provider\") as a Commercial service. This service is intended for use \"AS IS\".",
+  "title": "隱私政策",
+  "intro": "本隱私政策適用於由Thompson Costa Honorato（以下簡稱\"服務提供商\"）作為商業服務創建的行動裝置TimePro應用程式（以下簡稱\"應用程式\"）。本服務按\"原樣\"提供使用。",
   "sections": [
     {
-      "title": "[TRANSLATION NEEDED] What information does the Application obtain and how is it used?",
+      "title": "應用程式獲取哪些資訊以及如何使用？",
       "content": [
-        "[TRANSLATION NEEDED] The Application stores user preferences (settings) and calculation history locally on your device using UserDefaults. This data remains only on your device and is not transmitted to any external servers. This local data is used to provide the core functionality of the app, including saving your preferred settings and maintaining a history of your calculations.",
-        "[TRANSLATION NEEDED] For customer support purposes only, when you choose to contact support through the app's email feature, the following device information may be included in your support email to help us assist you better:",
+        "應用程式使用UserDefaults在您的裝置上本地儲存使用者偏好設定和計算歷史記錄。這些資料僅保留在您的裝置上，不會傳輸到任何外部伺服器。這些本地資料用於提供應用程式的核心功能，包括儲存您的偏好設定和維護計算歷史記錄。",
+        "僅出於客戶支援目的，當您選擇透過應用程式的電子郵件功能聯絡支援時，以下裝置資訊可能會包含在您的支援電子郵件中，以幫助我們更好地為您提供協助：",
         {
           "type": "list",
           "items": [
-            "[TRANSLATION NEEDED] Device model (e.g., iPhone 15 Pro)",
-            "[TRANSLATION NEEDED] iOS version (e.g., iOS 17.0)",
-            "[TRANSLATION NEEDED] App version",
-            "[TRANSLATION NEEDED] Device locale/language settings"
+            "裝置型號（例如，iPhone 15 Pro）",
+            "iOS版本（例如，iOS 17.0）",
+            "應用程式版本",
+            "裝置語言環境/語言設定"
           ]
         },
-        "[TRANSLATION NEEDED] This device information is only shared when you voluntarily send a support email and is used solely to provide technical assistance. No personal identifiers are collected or transmitted unless you choose to include them in your support message."
+        "這些裝置資訊僅在您主動發送支援電子郵件時共用，並且僅用於提供技術協助。除非您選擇在支援訊息中包含個人識別資訊，否則不會收集或傳輸任何個人識別資訊。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Local Data Storage",
+      "title": "本地資料儲存",
       "content": [
-        "[TRANSLATION NEEDED] The application stores preferences and calculation history locally on your device. This data is only accessible by the Application and is deleted when you uninstall the Application. No personal identifiers are associated with these data."
+        "應用程式在您的裝置上本地儲存偏好設定和計算歷史記錄。這些資料只能由應用程式存取，當您解除安裝應用程式時會被刪除。這些資料不與任何個人識別資訊關聯。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Does the Application collect precise real time location information of the device?",
+      "title": "應用程式是否收集裝置的精確即時位置資訊？",
       "content": [
-        "[TRANSLATION NEEDED] This Application does not collect precise information about the location of your mobile device."
+        "本應用程式不會收集您行動裝置位置的精確資訊。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Do third parties see and/or have access to information obtained by the Application?",
+      "title": "第三方是否能看到和/或存取應用程式獲取的資訊？",
       "content": [
-        "[TRANSLATION NEEDED] No data is automatically shared with third parties. All user preferences and calculation history are stored locally on your device and are not transmitted elsewhere.",
-        "[TRANSLATION NEEDED] When you voluntarily send a support email through the app, device information (device model, iOS version, app version, and locale settings) may be included in your email to your email provider and to our support team. This information is only shared when you choose to contact support and is used exclusively for providing technical assistance."
+        "不會自動與第三方共用任何資料。所有使用者偏好設定和計算歷史記錄都儲存在您的裝置本地，不會傳輸到其他地方。",
+        "當您透過應用程式主動發送支援電子郵件時，裝置資訊（裝置型號、iOS版本、應用程式版本和語言環境設定）可能會包含在發送給您的電子郵件提供商和我們支援團隊的電子郵件中。這些資訊僅在您選擇聯絡支援時共用，專門用於提供技術協助。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] What are my opt-out rights?",
+      "title": "我的退出權利是什麼？",
       "content": [
-        "[TRANSLATION NEEDED] You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes that may be available as part of your mobile device or via the mobile application marketplace or network."
+        "您可以透過解除安裝應用程式輕鬆停止應用程式收集所有資訊。您可以使用行動裝置或透過行動應用程式市場或網路提供的標準解除安裝流程。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Children",
+      "title": "兒童",
       "content": [
-        "[TRANSLATION NEEDED] The Application is not used to knowingly solicit data from or market to children under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourages parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider ({{email}}) so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries, we may allow your parent or guardian to do so on your behalf)."
+        "應用程式不用於故意從13歲以下兒童收集資料或向其進行行銷。服務提供商不會故意收集兒童的個人識別資訊。服務提供商鼓勵所有兒童永遠不要透過應用程式和/或服務提交任何個人識別資訊。服務提供商鼓勵父母和法定監護人監督其子女的網際網路使用，並透過指導其子女在未經許可的情況下永遠不要透過應用程式和/或服務提供個人識別資訊來幫助執行本政策。如果您有理由相信兒童已透過應用程式和/或服務向服務提供商提供了個人識別資訊，請聯絡服務提供商（{{email}}），以便他們能夠採取必要的行動。在您的國家/地區，您還必須年滿16歲才能同意處理您的個人識別資訊（在某些國家/地區，我們可能允許您的父母或監護人代表您這樣做）。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Security",
+      "title": "安全",
       "content": [
-        "[TRANSLATION NEEDED] The Service Provider is concerned about safeguarding the confidentiality of your information. Since the Application primarily stores data locally on your device and does not automatically transmit it, there is minimal risk of your data being accessed by unauthorized individuals. Device information included in voluntary support emails is transmitted using standard email security protocols and is only used for providing customer assistance."
+        "服務提供商關注保護您資訊的機密性。由於應用程式主要在您的裝置上本地儲存資料且不會自動傳輸，因此您的資料被未經授權的個人存取的風險很小。包含在自願支援電子郵件中的裝置資訊使用標準電子郵件安全協定傳輸，僅用於提供客戶協助。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Changes",
+      "title": "變更",
       "content": [
-        "[TRANSLATION NEEDED] This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to their Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes."
+        "本隱私政策可能會因任何原因不時更新。服務提供商將透過使用新隱私政策更新此頁面來通知您其隱私政策的任何變更。建議您定期查閱本隱私政策以了解任何變更，因為繼續使用即視為同意所有變更。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Your Consent",
+      "title": "您的同意",
       "content": [
-        "[TRANSLATION NEEDED] By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by the Service Provider."
+        "透過使用應用程式，您同意按照本隱私政策現在和由服務提供商修訂的版本處理您的資訊。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Contact Us",
+      "title": "聯絡我們",
       "content": [
-        "[TRANSLATION NEEDED] If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at {{email}}."
+        "如果您在使用應用程式時對隱私有任何疑問，或對相關做法有疑問，請透過電子郵件{{email}}聯絡服務提供商。"
       ]
     }
   ],
-  "footer": "[TRANSLATION NEEDED] This privacy policy is effective as of {{date}}"
+  "footer": "本隱私政策自{{date}}起生效"
 }
