@@ -1,81 +1,81 @@
 {
   "language": "ja",
   "languageName": "日本語",
-  "title": "[TRANSLATION NEEDED] Privacy Policy",
-  "intro": "[TRANSLATION NEEDED] This privacy policy applies to the TimePro app (hereby referred to as \"Application\") for mobile devices that was created by Thompson Costa Honorato (hereby referred to as \"Service Provider\") as a Commercial service. This service is intended for use \"AS IS\".",
+  "title": "プライバシーポリシー",
+  "intro": "このプライバシーポリシーは、Thompson Costa Honorato（以下「サービス提供者」という）が商用サービスとして作成したモバイルデバイス用TimePro アプリ（以下「アプリケーション」という）に適用されます。このサービスは「現状のまま」での使用を意図しています。",
   "sections": [
     {
-      "title": "[TRANSLATION NEEDED] What information does the Application obtain and how is it used?",
+      "title": "アプリケーションが取得する情報とその使用方法",
       "content": [
-        "[TRANSLATION NEEDED] The Application stores user preferences (settings) and calculation history locally on your device using UserDefaults. This data remains only on your device and is not transmitted to any external servers. This local data is used to provide the core functionality of the app, including saving your preferred settings and maintaining a history of your calculations.",
-        "[TRANSLATION NEEDED] For customer support purposes only, when you choose to contact support through the app's email feature, the following device information may be included in your support email to help us assist you better:",
+        "アプリケーションは、UserDefaultsを使用して、ユーザーの設定と計算履歴をお客様のデバイス上にローカルで保存します。このデータはお客様のデバイス上にのみ保持され、外部サーバーには送信されません。このローカルデータは、お客様の優先設定の保存や計算履歴の保持など、アプリの核となる機能を提供するために使用されます。",
+        "カスタマーサポートの目的のみで、お客様がアプリのメール機能を通じてサポートにお問い合わせいただく際、より良いサポートを提供するため、以下のデバイス情報がサポートメールに含まれる場合があります：",
         {
           "type": "list",
           "items": [
-            "[TRANSLATION NEEDED] Device model (e.g., iPhone 15 Pro)",
-            "[TRANSLATION NEEDED] iOS version (e.g., iOS 17.0)",
-            "[TRANSLATION NEEDED] App version",
-            "[TRANSLATION NEEDED] Device locale/language settings"
+            "デバイスモデル（例：iPhone 15 Pro）",
+            "iOSバージョン（例：iOS 17.0）",
+            "アプリバージョン",
+            "デバイスのロケール・言語設定"
           ]
         },
-        "[TRANSLATION NEEDED] This device information is only shared when you voluntarily send a support email and is used solely to provide technical assistance. No personal identifiers are collected or transmitted unless you choose to include them in your support message."
+        "このデバイス情報は、お客様が自発的にサポートメールを送信した場合にのみ共有され、技術的サポートの提供のみに使用されます。お客様がサポートメッセージに含めることを選択しない限り、個人識別情報が収集または送信されることはありません。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Local Data Storage",
+      "title": "ローカルデータストレージ",
       "content": [
-        "[TRANSLATION NEEDED] The application stores preferences and calculation history locally on your device. This data is only accessible by the Application and is deleted when you uninstall the Application. No personal identifiers are associated with these data."
+        "アプリケーションは設定と計算履歴をお客様のデバイス上にローカルで保存します。このデータはアプリケーションのみがアクセス可能で、アプリケーションをアンインストールすると削除されます。これらのデータに個人識別情報は関連付けられていません。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Does the Application collect precise real time location information of the device?",
+      "title": "アプリケーションはデバイスの正確なリアルタイム位置情報を収集しますか？",
       "content": [
-        "[TRANSLATION NEEDED] This Application does not collect precise information about the location of your mobile device."
+        "このアプリケーションは、お客様のモバイルデバイスの位置に関する正確な情報を収集しません。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Do third parties see and/or have access to information obtained by the Application?",
+      "title": "第三者はアプリケーションが取得した情報を閲覧および／またはアクセスできますか？",
       "content": [
-        "[TRANSLATION NEEDED] No data is automatically shared with third parties. All user preferences and calculation history are stored locally on your device and are not transmitted elsewhere.",
-        "[TRANSLATION NEEDED] When you voluntarily send a support email through the app, device information (device model, iOS version, app version, and locale settings) may be included in your email to your email provider and to our support team. This information is only shared when you choose to contact support and is used exclusively for providing technical assistance."
+        "データが第三者と自動的に共有されることはありません。すべてのユーザー設定と計算履歴はお客様のデバイス上にローカルで保存され、他の場所に送信されることはありません。",
+        "お客様がアプリを通じて自発的にサポートメールを送信した場合、デバイス情報（デバイスモデル、iOSバージョン、アプリバージョン、ロケール設定）がお客様のメールプロバイダーと当社のサポートチームに含まれる場合があります。この情報は、お客様がサポートにお問い合わせいただく場合にのみ共有され、技術的サポートの提供のみに使用されます。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] What are my opt-out rights?",
+      "title": "オプトアウト権は何ですか？",
       "content": [
-        "[TRANSLATION NEEDED] You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes that may be available as part of your mobile device or via the mobile application marketplace or network."
+        "アプリケーションをアンインストールすることで、アプリケーションによるすべての情報収集を簡単に停止できます。お客様のモバイルデバイスまたはモバイルアプリケーションマーケットプレイスやネットワークを通じて利用可能な標準のアンインストールプロセスを使用できます。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Children",
+      "title": "子供",
       "content": [
-        "[TRANSLATION NEEDED] The Application is not used to knowingly solicit data from or market to children under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourages parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider ({{email}}) so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries, we may allow your parent or guardian to do so on your behalf)."
+        "アプリケーションは、13歳未満の子供からデータを故意に収集したり、子供に対してマーケティングを行ったりするために使用されません。サービス提供者は子供から個人識別情報を故意に収集しません。サービス提供者は、すべての子供がアプリケーションおよび／またはサービスを通じて個人識別情報を決して提出しないよう促します。サービス提供者は、保護者および法定後見人に対し、子供のインターネット使用を監視し、子供が許可なくアプリケーションおよび／またはサービスを通じて個人識別情報を提供しないよう指導することで、このポリシーの実施を支援することを促します。子供がアプリケーションおよび／またはサービスを通じてサービス提供者に個人識別情報を提供したと信じる理由がある場合は、必要な措置を講じることができるよう、サービス提供者（{{email}}）にご連絡ください。また、お客様の国において個人識別情報の処理に同意するには、少なくとも16歳以上である必要があります（一部の国では、保護者または法定後見人がお客様に代わって同意することを認める場合があります）。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Security",
+      "title": "セキュリティ",
       "content": [
-        "[TRANSLATION NEEDED] The Service Provider is concerned about safeguarding the confidentiality of your information. Since the Application primarily stores data locally on your device and does not automatically transmit it, there is minimal risk of your data being accessed by unauthorized individuals. Device information included in voluntary support emails is transmitted using standard email security protocols and is only used for providing customer assistance."
+        "サービス提供者は、お客様の情報の機密性を保護することに関心を持っています。アプリケーションは主にお客様のデバイス上にデータをローカルで保存し、自動的に送信しないため、権限のない個人がお客様のデータにアクセスするリスクは最小限です。自発的なサポートメールに含まれるデバイス情報は、標準のメールセキュリティプロトコルを使用して送信され、カスタマーサポートの提供のみに使用されます。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Changes",
+      "title": "変更",
       "content": [
-        "[TRANSLATION NEEDED] This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to their Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes."
+        "このプライバシーポリシーは、理由を問わず随時更新される場合があります。サービス提供者は、このページを新しいプライバシーポリシーで更新することにより、プライバシーポリシーの変更をお客様に通知します。継続的な使用はすべての変更の承認とみなされるため、変更について定期的にこのプライバシーポリシーを確認することをお勧めします。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Your Consent",
+      "title": "お客様の同意",
       "content": [
-        "[TRANSLATION NEEDED] By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by the Service Provider."
+        "アプリケーションを使用することにより、お客様は現在およびサービス提供者によって修正されたこのプライバシーポリシーに定められた情報の処理に同意したことになります。"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Contact Us",
+      "title": "お問い合わせ",
       "content": [
-        "[TRANSLATION NEEDED] If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at {{email}}."
+        "アプリケーションの使用中にプライバシーに関してご質問がある場合、または実践についてご質問がある場合は、{{email}}までメールでサービス提供者にお問い合わせください。"
       ]
     }
   ],
-  "footer": "[TRANSLATION NEEDED] This privacy policy is effective as of {{date}}"
+  "footer": "このプライバシーポリシーは{{date}}より有効です"
 }
