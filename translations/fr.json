@@ -1,81 +1,81 @@
 {
   "language": "fr",
   "languageName": "Français",
-  "title": "[TRANSLATION NEEDED] Privacy Policy",
-  "intro": "[TRANSLATION NEEDED] This privacy policy applies to the TimePro app (hereby referred to as \"Application\") for mobile devices that was created by Thompson Costa Honorato (hereby referred to as \"Service Provider\") as a Commercial service. This service is intended for use \"AS IS\".",
+  "title": "Politique de confidentialité",
+  "intro": "Cette politique de confidentialité s'applique à l'application TimePro (ci-après désignée sous le nom d'« Application ») pour appareils mobiles qui a été créée par Thompson Costa Honorato (ci-après désigné sous le nom de « Fournisseur de services ») en tant que service commercial. Ce service est destiné à être utilisé « EN L'ÉTAT ».",
   "sections": [
     {
-      "title": "[TRANSLATION NEEDED] What information does the Application obtain and how is it used?",
+      "title": "Quelles informations l'Application obtient-elle et comment sont-elles utilisées ?",
       "content": [
-        "[TRANSLATION NEEDED] The Application stores user preferences (settings) and calculation history locally on your device using UserDefaults. This data remains only on your device and is not transmitted to any external servers. This local data is used to provide the core functionality of the app, including saving your preferred settings and maintaining a history of your calculations.",
-        "[TRANSLATION NEEDED] For customer support purposes only, when you choose to contact support through the app's email feature, the following device information may be included in your support email to help us assist you better:",
+        "L'Application stocke les préférences utilisateur (paramètres) et l'historique des calculs localement sur votre appareil en utilisant UserDefaults. Ces données restent uniquement sur votre appareil et ne sont pas transmises à des serveurs externes. Ces données locales sont utilisées pour fournir les fonctionnalités principales de l'application, notamment la sauvegarde de vos paramètres préférés et le maintien d'un historique de vos calculs.",
+        "Uniquement à des fins de support client, lorsque vous choisissez de contacter le support via la fonction e-mail de l'application, les informations d'appareil suivantes peuvent être incluses dans votre e-mail de support pour nous aider à mieux vous assister :",
         {
           "type": "list",
           "items": [
-            "[TRANSLATION NEEDED] Device model (e.g., iPhone 15 Pro)",
-            "[TRANSLATION NEEDED] iOS version (e.g., iOS 17.0)",
-            "[TRANSLATION NEEDED] App version",
-            "[TRANSLATION NEEDED] Device locale/language settings"
+            "Modèle d'appareil (par ex., iPhone 15 Pro)",
+            "Version iOS (par ex., iOS 17.0)",
+            "Version de l'application",
+            "Paramètres de localisation/langue de l'appareil"
           ]
         },
-        "[TRANSLATION NEEDED] This device information is only shared when you voluntarily send a support email and is used solely to provide technical assistance. No personal identifiers are collected or transmitted unless you choose to include them in your support message."
+        "Ces informations d'appareil ne sont partagées que lorsque vous envoyez volontairement un e-mail de support et sont utilisées uniquement pour fournir une assistance technique. Aucun identifiant personnel n'est collecté ou transmis à moins que vous ne choisissiez de les inclure dans votre message de support."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Local Data Storage",
+      "title": "Stockage de données locales",
       "content": [
-        "[TRANSLATION NEEDED] The application stores preferences and calculation history locally on your device. This data is only accessible by the Application and is deleted when you uninstall the Application. No personal identifiers are associated with these data."
+        "L'application stocke les préférences et l'historique des calculs localement sur votre appareil. Ces données ne sont accessibles que par l'Application et sont supprimées lorsque vous désinstallez l'Application. Aucun identifiant personnel n'est associé à ces données."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Does the Application collect precise real time location information of the device?",
+      "title": "L'Application collecte-t-elle des informations de localisation précises en temps réel de l'appareil ?",
       "content": [
-        "[TRANSLATION NEEDED] This Application does not collect precise information about the location of your mobile device."
+        "Cette Application ne collecte pas d'informations précises sur la localisation de votre appareil mobile."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Do third parties see and/or have access to information obtained by the Application?",
+      "title": "Des tiers voient-ils et/ou ont-ils accès aux informations obtenues par l'Application ?",
       "content": [
-        "[TRANSLATION NEEDED] No data is automatically shared with third parties. All user preferences and calculation history are stored locally on your device and are not transmitted elsewhere.",
-        "[TRANSLATION NEEDED] When you voluntarily send a support email through the app, device information (device model, iOS version, app version, and locale settings) may be included in your email to your email provider and to our support team. This information is only shared when you choose to contact support and is used exclusively for providing technical assistance."
+        "Aucune donnée n'est automatiquement partagée avec des tiers. Toutes les préférences utilisateur et l'historique des calculs sont stockés localement sur votre appareil et ne sont pas transmis ailleurs.",
+        "Lorsque vous envoyez volontairement un e-mail de support via l'application, les informations d'appareil (modèle d'appareil, version iOS, version de l'application et paramètres de localisation) peuvent être incluses dans votre e-mail à votre fournisseur d'e-mail et à notre équipe de support. Ces informations ne sont partagées que lorsque vous choisissez de contacter le support et sont utilisées exclusivement pour fournir une assistance technique."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] What are my opt-out rights?",
+      "title": "Quels sont mes droits de retrait ?",
       "content": [
-        "[TRANSLATION NEEDED] You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes that may be available as part of your mobile device or via the mobile application marketplace or network."
+        "Vous pouvez facilement arrêter toute collecte d'informations par l'Application en la désinstallant. Vous pouvez utiliser les processus de désinstallation standard qui peuvent être disponibles dans le cadre de votre appareil mobile ou via le marché d'applications mobiles ou le réseau."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Children",
+      "title": "Enfants",
       "content": [
-        "[TRANSLATION NEEDED] The Application is not used to knowingly solicit data from or market to children under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourages parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider ({{email}}) so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries, we may allow your parent or guardian to do so on your behalf)."
+        "L'Application n'est pas utilisée pour solliciter sciemment des données d'enfants de moins de 13 ans ou leur faire du marketing. Le Fournisseur de services ne collecte pas sciemment d'informations personnellement identifiables d'enfants. Le Fournisseur de services encourage tous les enfants à ne jamais soumettre d'informations personnellement identifiables via l'Application et/ou les Services. Le Fournisseur de services encourage les parents et tuteurs légaux à surveiller l'utilisation d'Internet de leurs enfants et à aider à faire respecter cette Politique en instruisant leurs enfants de ne jamais fournir d'informations personnellement identifiables via l'Application et/ou les Services sans leur permission. Si vous avez des raisons de croire qu'un enfant a fourni des informations personnellement identifiables au Fournisseur de services via l'Application et/ou les Services, veuillez contacter le Fournisseur de services ({{email}}) afin qu'il puisse prendre les mesures nécessaires. Vous devez également avoir au moins 16 ans pour consentir au traitement de vos informations personnellement identifiables dans votre pays (dans certains pays, nous pouvons permettre à votre parent ou tuteur de le faire en votre nom)."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Security",
+      "title": "Sécurité",
       "content": [
-        "[TRANSLATION NEEDED] The Service Provider is concerned about safeguarding the confidentiality of your information. Since the Application primarily stores data locally on your device and does not automatically transmit it, there is minimal risk of your data being accessed by unauthorized individuals. Device information included in voluntary support emails is transmitted using standard email security protocols and is only used for providing customer assistance."
+        "Le Fournisseur de services se préoccupe de protéger la confidentialité de vos informations. Étant donné que l'Application stocke principalement les données localement sur votre appareil et ne les transmet pas automatiquement, il y a un risque minimal que vos données soient accédées par des individus non autorisés. Les informations d'appareil incluses dans les e-mails de support volontaires sont transmises en utilisant les protocoles de sécurité e-mail standard et ne sont utilisées que pour fournir une assistance client."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Changes",
+      "title": "Modifications",
       "content": [
-        "[TRANSLATION NEEDED] This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to their Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes."
+        "Cette Politique de confidentialité peut être mise à jour de temps à autre pour toute raison. Le Fournisseur de services vous informera de tout changement à sa Politique de confidentialité en mettant à jour cette page avec la nouvelle Politique de confidentialité. Il vous est conseillé de consulter régulièrement cette Politique de confidentialité pour tout changement, car l'utilisation continue est considérée comme une approbation de tous les changements."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Your Consent",
+      "title": "Votre consentement",
       "content": [
-        "[TRANSLATION NEEDED] By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by the Service Provider."
+        "En utilisant l'Application, vous consentez au traitement de vos informations tel qu'énoncé dans cette Politique de confidentialité maintenant et tel qu'amendé par le Fournisseur de services."
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Contact Us",
+      "title": "Nous contacter",
       "content": [
-        "[TRANSLATION NEEDED] If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at {{email}}."
+        "Si vous avez des questions concernant la confidentialité lors de l'utilisation de l'Application, ou si vous avez des questions sur les pratiques, veuillez contacter le Fournisseur de services par e-mail à {{email}}."
       ]
     }
   ],
-  "footer": "[TRANSLATION NEEDED] This privacy policy is effective as of {{date}}"
+  "footer": "Cette politique de confidentialité est effective à compter du {{date}}"
 }
