@@ -1,81 +1,81 @@
 {
   "language": "hi",
   "languageName": "हिन्दी",
-  "title": "[TRANSLATION NEEDED] Privacy Policy",
-  "intro": "[TRANSLATION NEEDED] This privacy policy applies to the TimePro app (hereby referred to as \"Application\") for mobile devices that was created by Thompson Costa Honorato (hereby referred to as \"Service Provider\") as a Commercial service. This service is intended for use \"AS IS\".",
+  "title": "गोपनीयता नीति",
+  "intro": "यह गोपनीयता नीति मोबाइल उपकरणों के लिए TimePro ऐप (इसे \"एप्लिकेशन\" कहा जाता है) पर लागू होती है जो Thompson Costa Honorato (इसे \"सेवा प्रदाता\" कहा जाता है) द्वारा एक व्यावसायिक सेवा के रूप में बनाया गया था। यह सेवा \"AS IS\" उपयोग के लिए है।",
   "sections": [
     {
-      "title": "[TRANSLATION NEEDED] What information does the Application obtain and how is it used?",
+      "title": "एप्लिकेशन कौन सी जानकारी प्राप्त करता है और इसका उपयोग कैसे किया जाता है?",
       "content": [
-        "[TRANSLATION NEEDED] The Application stores user preferences (settings) and calculation history locally on your device using UserDefaults. This data remains only on your device and is not transmitted to any external servers. This local data is used to provide the core functionality of the app, including saving your preferred settings and maintaining a history of your calculations.",
-        "[TRANSLATION NEEDED] For customer support purposes only, when you choose to contact support through the app's email feature, the following device information may be included in your support email to help us assist you better:",
+        "एप्लिकेशन UserDefaults का उपयोग करके आपके डिवाइस पर स्थानीय रूप से उपयोगकर्ता प्राथमिकताएं (सेटिंग्स) और गणना इतिहास संग्रहीत करता है। यह डेटा केवल आपके डिवाइस पर रहता है और किसी भी बाहरी सर्वर को प्रेषित नहीं किया जाता है। इस स्थानीय डेटा का उपयोग ऐप की मुख्य कार्यक्षमता प्रदान करने के लिए किया जाता है, जिसमें आपकी पसंदीदा सेटिंग्स को सहेजना और आपकी गणनाओं का इतिहास बनाए रखना शामिल है।",
+        "केवल ग्राहक सहायता के उद्देश्यों के लिए, जब आप ऐप की ईमेल सुविधा के माध्यम से सहायता से संपर्क करना चुनते हैं, तो आपकी बेहतर सहायता के लिए निम्नलिखित डिवाइस जानकारी आपके सहायता ईमेल में शामिल हो सकती है:",
         {
           "type": "list",
           "items": [
-            "[TRANSLATION NEEDED] Device model (e.g., iPhone 15 Pro)",
-            "[TRANSLATION NEEDED] iOS version (e.g., iOS 17.0)",
-            "[TRANSLATION NEEDED] App version",
-            "[TRANSLATION NEEDED] Device locale/language settings"
+            "डिवाइस मॉडल (जैसे, iPhone 15 Pro)",
+            "iOS संस्करण (जैसे, iOS 17.0)",
+            "ऐप संस्करण",
+            "डिवाइस स्थान/भाषा सेटिंग्स"
           ]
         },
-        "[TRANSLATION NEEDED] This device information is only shared when you voluntarily send a support email and is used solely to provide technical assistance. No personal identifiers are collected or transmitted unless you choose to include them in your support message."
+        "यह डिवाइस जानकारी केवल तभी साझा की जाती है जब आप स्वेच्छा से एक सहायता ईमेल भेजते हैं और इसका उपयोग केवल तकनीकी सहायता प्रदान करने के लिए किया जाता है। जब तक आप अपने सहायता संदेश में व्यक्तिगत पहचानकर्ता शामिल करना नहीं चुनते, तब तक कोई व्यक्तिगत पहचानकर्ता एकत्र या प्रेषित नहीं किए जाते हैं।"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Local Data Storage",
+      "title": "स्थानीय डेटा संग्रहण",
       "content": [
-        "[TRANSLATION NEEDED] The application stores preferences and calculation history locally on your device. This data is only accessible by the Application and is deleted when you uninstall the Application. No personal identifiers are associated with these data."
+        "एप्लिकेशन आपके डिवाइस पर स्थानीय रूप से प्राथमिकताएं और गणना इतिहास संग्रहीत करता है। यह डेटा केवल एप्लिकेशन द्वारा ही सुलभ है और जब आप एप्लिकेशन को अनइंस्टॉल करते हैं तो यह हटा दिया जाता है। इन डेटा के साथ कोई व्यक्तिगत पहचानकर्ता संबद्ध नहीं हैं।"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Does the Application collect precise real time location information of the device?",
+      "title": "क्या एप्लिकेशन डिवाइस की सटीक वास्तविक समय स्थान जानकारी एकत्र करता है?",
       "content": [
-        "[TRANSLATION NEEDED] This Application does not collect precise information about the location of your mobile device."
+        "यह एप्लिकेशन आपके मोबाइल डिवाइस के स्थान के बारे में सटीक जानकारी एकत्र नहीं करता है।"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Do third parties see and/or have access to information obtained by the Application?",
+      "title": "क्या तृतीय पक्ष एप्लिकेशन द्वारा प्राप्त जानकारी देखते हैं और/या उस तक पहुंच रखते हैं?",
       "content": [
-        "[TRANSLATION NEEDED] No data is automatically shared with third parties. All user preferences and calculation history are stored locally on your device and are not transmitted elsewhere.",
-        "[TRANSLATION NEEDED] When you voluntarily send a support email through the app, device information (device model, iOS version, app version, and locale settings) may be included in your email to your email provider and to our support team. This information is only shared when you choose to contact support and is used exclusively for providing technical assistance."
+        "कोई डेटा स्वचालित रूप से तृतीय पक्ष के साथ साझा नहीं किया जाता है। सभी उपयोगकर्ता प्राथमिकताएं और गणना इतिहास आपके डिवाइस पर स्थानीय रूप से संग्रहीत हैं और कहीं और प्रेषित नहीं हैं।",
+        "जब आप स्वेच्छा से ऐप के माध्यम से एक सहायता ईमेल भेजते हैं, तो डिवाइस जानकारी (डिवाइस मॉडल, iOS संस्करण, ऐप संस्करण, और स्थान सेटिंग्स) आपके ईमेल प्रदाता और हमारी सहायता टीम को आपके ईमेल में शामिल हो सकती है। यह जानकारी केवल तभी साझा की जाती है जब आप सहायता से संपर्क करना चुनते हैं और इसका उपयोग विशेष रूप से तकनीकी सहायता प्रदान करने के लिए किया जाता है।"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] What are my opt-out rights?",
+      "title": "मेरे ऑप्ट-आउट अधिकार क्या हैं?",
       "content": [
-        "[TRANSLATION NEEDED] You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes that may be available as part of your mobile device or via the mobile application marketplace or network."
+        "आप एप्लिकेशन को अनइंस्टॉल करके आसानी से एप्लिकेशन द्वारा सभी जानकारी का संग्रह रोक सकते हैं। आप मानक अनइंस्टॉल प्रक्रियाओं का उपयोग कर सकते हैं जो आपके मोबाइल डिवाइस के हिस्से के रूप में या मोबाइल एप्लिकेशन मार्केटप्लेस या नेटवर्क के माध्यम से उपलब्ध हो सकती हैं।"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Children",
+      "title": "बच्चे",
       "content": [
-        "[TRANSLATION NEEDED] The Application is not used to knowingly solicit data from or market to children under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourages parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider ({{email}}) so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries, we may allow your parent or guardian to do so on your behalf)."
+        "एप्लिकेशन का उपयोग 13 वर्ष से कम उम्र के बच्चों से जानकारी मांगने या उन्हें मार्केट करने के लिए नहीं किया जाता है। सेवा प्रदाता जानबूझकर बच्चों से व्यक्तिगत रूप से पहचान योग्य जानकारी एकत्र नहीं करता है। सेवा प्रदाता सभी बच्चों को प्रोत्साहित करता है कि वे कभी भी एप्लिकेशन और/या सेवाओं के माध्यम से कोई व्यक्तिगत रूप से पहचान योग्य जानकारी प्रस्तुत न करें। सेवा प्रदाता माता-पिता और कानूनी अभिभावकों को प्रोत्साहित करता है कि वे अपने बच्चों के इंटरनेट उपयोग की निगरानी करें और इस नीति को लागू करने में सहायता करें और अपने बच्चों को निर्देश दें कि वे उनकी अनुमति के बिना एप्लिकेशन और/या सेवाओं के माध्यम से कभी भी व्यक्तिगत रूप से पहचान योग्य जानकारी प्रदान न करें। यदि आपके पास यह मानने का कारण है कि एक बच्चे ने एप्लिकेशन और/या सेवाओं के माध्यम से सेवा प्रदाता को व्यक्तिगत रूप से पहचान योग्य जानकारी प्रदान की है, तो कृपया सेवा प्रदाता ({{email}}) से संपर्क करें ताकि वे आवश्यक कार्रवाई कर सकें। आपको अपने देश में अपनी व्यक्तिगत रूप से पहचान योग्य जानकारी के प्रसंस्करण के लिए सहमति देने के लिए कम से कम 16 वर्ष की आयु का होना चाहिए (कुछ देशों में, हम आपके माता-पिता या अभिभावक को आपकी ओर से ऐसा करने की अनुमति दे सकते हैं)।"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Security",
+      "title": "सुरक्षा",
       "content": [
-        "[TRANSLATION NEEDED] The Service Provider is concerned about safeguarding the confidentiality of your information. Since the Application primarily stores data locally on your device and does not automatically transmit it, there is minimal risk of your data being accessed by unauthorized individuals. Device information included in voluntary support emails is transmitted using standard email security protocols and is only used for providing customer assistance."
+        "सेवा प्रदाता आपकी जानकारी की गोपनीयता की सुरक्षा के बारे में चिंतित है। चूंकि एप्लिकेशन मुख्य रूप से आपके डिवाइस पर स्थानीय रूप से डेटा संग्रहीत करता है और इसे स्वचालित रूप से प्रेषित नहीं करता है, इसलिए आपके डेटा तक अनधिकृत व्यक्तियों द्वारा पहुंच का न्यूनतम जोखिम है। स्वैच्छिक सहायता ईमेल में शामिल डिवाइस जानकारी मानक ईमेल सुरक्षा प्रोटोकॉल का उपयोग करके प्रेषित की जाती है और केवल ग्राहक सहायता प्रदान करने के लिए उपयोग की जाती है।"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Changes",
+      "title": "परिवर्तन",
       "content": [
-        "[TRANSLATION NEEDED] This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to their Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes."
+        "यह गोपनीयता नीति किसी भी कारण से समय-समय पर अपडेट की जा सकती है। सेवा प्रदाता इस पृष्ठ को नई गोपनीयता नीति के साथ अपडेट करके अपनी गोपनीयता नीति में किसी भी परिवर्तन के बारे में आपको सूचित करेगा। आपको सलाह दी जाती है कि आप किसी भी परिवर्तन के लिए नियमित रूप से इस गोपनीयता नीति से परामर्श लें, क्योंकि निरंतर उपयोग सभी परिवर्तनों की अनुमोदन माना जाता है।"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Your Consent",
+      "title": "आपकी सहमति",
       "content": [
-        "[TRANSLATION NEEDED] By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by the Service Provider."
+        "एप्लिकेशन का उपयोग करके, आप इस गोपनीयता नीति में निर्धारित अपनी जानकारी के प्रसंस्करण के लिए सहमति दे रहे हैं जैसा कि अभी है और सेवा प्रदाता द्वारा संशोधित किया गया है।"
       ]
     },
     {
-      "title": "[TRANSLATION NEEDED] Contact Us",
+      "title": "हमसे संपर्क करें",
       "content": [
-        "[TRANSLATION NEEDED] If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at {{email}}."
+        "यदि एप्लिकेशन का उपयोग करते समय गोपनीयता के संबंध में आपके कोई प्रश्न हैं, या प्रथाओं के बारे में प्रश्न हैं, तो कृपया {{email}} पर ईमेल के माध्यम से सेवा प्रदाता से संपर्क करें।"
       ]
     }
   ],
-  "footer": "[TRANSLATION NEEDED] This privacy policy is effective as of {{date}}"
+  "footer": "यह गोपनीयता नीति {{date}} से प्रभावी है"
 }
