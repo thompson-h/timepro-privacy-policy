@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TimePro Privacy Policy</title>
+    <title>TimePro - Support</title>
     <style>
         :root {
             --primary-color: #007AFF;
@@ -12,6 +12,8 @@
             --card-bg: #fff;
             --border-color: #d1d1d6;
             --secondary-text: #86868b;
+            --accent-color: #FF3B30;
+            --success-color: #34C759;
         }
 
         * {
@@ -27,468 +29,265 @@
             background-color: var(--bg-color);
         }
 
-        /* Novo wrapper para conter tudo */
-        .page-wrapper {
-            position: relative;
-            min-height: 100vh;
-        }
-
-        /* Mudança principal: de fixed para absolute */
-        .language-selector {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-        }
-
-        .language-dropdown {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 8px 12px;
-            font-size: 14px;
-            cursor: pointer;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            transition: all 0.2s ease;
-            min-width: 150px;
-            color: #1d1d1f;
-            font-family: inherit;
-        }
-
-        .language-dropdown:hover {
-            border-color: var(--primary-color);
-        }
-
-        .language-dropdown:focus {
-            outline: none;
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.1);
-        }
-
-        /* Container com padding-top para não ficar atrás do dropdown */
         .container {
             max-width: 800px;
             margin: 40px auto;
             padding: 30px;
-            padding-top: 70px;
             background-color: var(--card-bg);
             border-radius: 12px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
-        h1 {
-            font-size: 28px;
-            font-weight: 600;
-            margin-bottom: 24px;
-            color: #1d1d1f;
+
+        .app-header {
             text-align: center;
-        }
-        h2 {
-            font-size: 20px;
-            font-weight: 500;
-            margin-top: 36px;
-            margin-bottom: 16px;
-            color: #1d1d1f;
-        }
-        p {
-            margin-bottom: 16px;
-        }
-        ul {
-            margin-bottom: 16px;
-            padding-left: 24px;
+            margin-bottom: 40px;
         }
 
-        li {
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+            background: linear-gradient(45deg, var(--primary-color), #5856D6);
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            color: white;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #1d1d1f;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: var(--secondary-text);
+            margin-bottom: 24px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 16px;
+            color: #1d1d1f;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-icon {
+            width: 24px;
+            height: 24px;
+            border-radius: 6px;
+            background: var(--primary-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 24px;
+        }
+
+        .feature-card {
+            background: var(--bg-color);
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid var(--border-color);
+        }
+
+        .feature-card h3 {
+            font-size: 18px;
+            font-weight: 500;
             margin-bottom: 8px;
+            color: #1d1d1f;
+        }
+
+        .feature-card p {
+            color: var(--secondary-text);
+            font-size: 14px;
+        }
+
+        .contact-info {
+            background: var(--bg-color);
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid var(--border-color);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .contact-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: var(--primary-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 16px;
+        }
+
+        .button {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background: #005bb5;
+            transform: translateY(-1px);
+        }
+
+        .button.secondary {
+            background: var(--card-bg);
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+        }
+
+        .button.secondary:hover {
+            background: var(--primary-color);
+            color: white;
         }
 
         .footer {
             text-align: center;
             margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-color);
             font-size: 14px;
             color: var(--secondary-text);
         }
 
-        .loading {
-            text-align: center;
-            padding: 40px;
-            color: var(--secondary-text);
-        }
-        /* RTL support */
-        [dir="rtl"] {
-            text-align: right;
-        }
-        [dir="rtl"] .container {
-            text-align: right;
-        }
-        [dir="rtl"] h1,
-        [dir="rtl"] h2 {
-            text-align: right;
-        }
-        [dir="rtl"] .footer {
-            text-align: right;
-        }
-        /* Keep language selector on right side even for RTL */
-        [dir="rtl"] .language-selector {
-            right: 20px;
-            left: auto;
+        .footer a {
+            color: var(--primary-color);
+            text-decoration: none;
         }
 
-        [dir="rtl"] ul {
-            padding-right: 24px;
-            padding-left: 0;
+        .footer a:hover {
+            text-decoration: underline;
         }
         
         @media (max-width: 600px) {
             .container {
-                margin: 0;
+                margin: 20px;
                 padding: 20px;
-                padding-top: 60px;
-                border-radius: 0;
             }
             
-            .language-selector {
-                position: absolute;
-                top: 10px;
-                right: 10px;
+            .feature-grid {
+                grid-template-columns: 1fr;
             }
             
-            .language-dropdown {
-                min-width: 120px;
-                font-size: 12px;
-                padding: 6px 10px;
+            .app-icon {
+                width: 64px;
+                height: 64px;
+                font-size: 28px;
             }
             
-            /* Keep language selector on right side even for RTL on mobile */
-            [dir="rtl"] .language-selector {
-                right: 10px;
-                left: auto;
+            h1 {
+                font-size: 24px;
             }
         }
     </style>
     <script src="config.js"></script>
-    <script>
-        // Supported languages and their locale mappings
-        const SUPPORTED_LANGUAGES =         {
-                  "en": {
-                            "file": "en.json",
-                            "locale": "en-US"
-                  },
-                  "pt": {
-                            "file": "pt.json",
-                            "locale": "pt-BR"
-                  },
-                  "es": {
-                            "file": "es.json",
-                            "locale": "es-ES"
-                  },
-                  "ar": {
-                            "file": "ar.json",
-                            "locale": "ar-SA"
-                  },
-                  "zh-Hans": {
-                            "file": "zh-Hans.json",
-                            "locale": "zh-CN"
-                  },
-                  "zh-Hant": {
-                            "file": "zh-Hant.json",
-                            "locale": "zh-TW"
-                  },
-                  "da": {
-                            "file": "da.json",
-                            "locale": "da-DK"
-                  },
-                  "nl": {
-                            "file": "nl.json",
-                            "locale": "nl-NL"
-                  },
-                  "fi": {
-                            "file": "fi.json",
-                            "locale": "fi-FI"
-                  },
-                  "fr": {
-                            "file": "fr.json",
-                            "locale": "fr-FR"
-                  },
-                  "de": {
-                            "file": "de.json",
-                            "locale": "de-DE"
-                  },
-                  "hi": {
-                            "file": "hi.json",
-                            "locale": "hi-IN"
-                  },
-                  "id": {
-                            "file": "id.json",
-                            "locale": "id-ID"
-                  },
-                  "it": {
-                            "file": "it.json",
-                            "locale": "it-IT"
-                  },
-                  "ja": {
-                            "file": "ja.json",
-                            "locale": "ja-JP"
-                  },
-                  "ko": {
-                            "file": "ko.json",
-                            "locale": "ko-KR"
-                  },
-                  "no": {
-                            "file": "no.json",
-                            "locale": "nb-NO"
-                  },
-                  "pl": {
-                            "file": "pl.json",
-                            "locale": "pl-PL"
-                  },
-                  "ru": {
-                            "file": "ru.json",
-                            "locale": "ru-RU"
-                  },
-                  "sv": {
-                            "file": "sv.json",
-                            "locale": "sv-SE"
-                  },
-                  "th": {
-                            "file": "th.json",
-                            "locale": "th-TH"
-                  },
-                  "tr": {
-                            "file": "tr.json",
-                            "locale": "tr-TR"
-                  },
-                  "uk": {
-                            "file": "uk.json",
-                            "locale": "uk-UA"
-                  }
-        };
-        
-        let currentTranslation = null;
-        let currentLocale = 'en-US';
-        let currentLanguage = 'en';
-        
-        // Function to detect user's preferred language
-        function detectUserLanguage() {
-            // Get browser language preference
-            const userLang = navigator.language || navigator.userLanguage;
-            const langCode = userLang.split('-')[0].toLowerCase();
-            
-            console.log('Browser language:', userLang, 'Language code:', langCode);
-            
-            // Check if we support this language
-            if (SUPPORTED_LANGUAGES[langCode]) {
-                console.log('Using supported language:', langCode);
-                return langCode;
-            }
-            
-            // Default to English if not supported
-            console.log('Language not supported, defaulting to English');
-            return 'en';
-        }
-        
-        // Function to load translation file
-        async function loadTranslation(language) {
-            try {
-                console.log('Loading translation for:', language);
-                const url = `translations/${SUPPORTED_LANGUAGES[language].file}`;
-                console.log('Fetching URL:', url);
-                
-                const response = await fetch(url);
-                console.log('Response status:', response.status);
-                
-                if (!response.ok) {
-                    throw new Error(`Failed to load translation: ${response.status}`);
-                }
-                const translation = await response.json();
-                console.log('Translation loaded successfully:', translation.title);
-                
-                currentTranslation = translation;
-                currentLocale = SUPPORTED_LANGUAGES[language].locale;
-                currentLanguage = language;
-                return translation;
-            } catch (error) {
-                console.error('Error loading translation:', error);
-                // Fallback to English
-                if (language !== 'en') {
-                    console.log('Falling back to English');
-                    return loadTranslation('en');
-                }
-                throw error;
-            }
-        }
-        
-        // Function to render content from translation
-        function renderContent(translation) {
-            document.documentElement.lang = translation.language;
-            
-            // Set RTL direction for Arabic
-            if (translation.language === 'ar') {
-                document.documentElement.dir = 'rtl';
-            } else {
-                document.documentElement.dir = 'ltr';
-            }
-            
-            document.title = `TimePro ${translation.title}`;
-            
-            const container = document.querySelector('.container');
-            if (!container) return;
-            
-            let html = `<h1>${translation.title}</h1>`;
-            html += `<p>${translation.intro}</p>`;
-            
-            // Render sections
-            translation.sections.forEach(section => {
-                html += `<h2>${section.title}</h2>`;
-                
-                section.content.forEach(item => {
-                    if (typeof item === 'string') {
-                        // Replace email placeholder
-                        const content = item.replace(/\{\{email\}\}/g, '<span class="contact-email">[EMAIL]</span>');
-                        html += `<p>${content}</p>`;
-                    } else if (item.type === 'list') {
-                        html += '<ul>';
-                        item.items.forEach(listItem => {
-                            html += `<li>${listItem}</li>`;
-                        });
-                        html += '</ul>';
-                    }
-                });
-            });
-            
-            // Add footer
-            const footerContent = translation.footer.replace(/\{\{date\}\}/g, '<span class="effective-date">[DATE]</span>');
-            html += `<div class="footer"><p>${footerContent}</p></div>`;
-            
-            container.innerHTML = html;
-        }
-        
-        // Function to update language selector
-        function updateLanguageSelector() {
-            const selector = document.getElementById('languageSelect');
-            if (selector) {
-                selector.value = currentLanguage;
-            }
-        }
-        
-        // Function to change language manually
-        async function changeLanguage(language) {
-            try {
-                console.log('Manually changing language to:', language);
-                const translation = await loadTranslation(language);
-                renderContent(translation);
-                updateContactEmails();
-                updateEffectiveDate();
-                updateLanguageSelector();
-                console.log('Language changed successfully');
-            } catch (error) {
-                console.error('Failed to change language:', error);
-            }
-        }
-        
-        // Function to replace email placeholders
-        function updateContactEmails() {
-            const emailElements = document.querySelectorAll('.contact-email');
-            emailElements.forEach(element => {
-                element.textContent = CONTACT_EMAIL;
-                if (element.tagName === 'A') {
-                    element.href = 'mailto:' + CONTACT_EMAIL;
-                }
-            });
-        }
-        
-        // Function to format and replace date placeholders
-        function updateEffectiveDate() {
-            const dateElements = document.querySelectorAll('.effective-date');
-            dateElements.forEach(element => {
-                const formattedDate = EFFECTIVE_DATE.toLocaleDateString(currentLocale, {
-                    year: 'numeric',
-                    month: '2-digit',
-                    day: '2-digit'
-                });
-                element.textContent = formattedDate;
-            });
-        }
-        
-        // Initialize the application
-        async function initializeApp() {
-            console.log('Initializing app...');
-            try {
-                const userLanguage = detectUserLanguage();
-                const translation = await loadTranslation(userLanguage);
-                console.log('About to render content...');
-                renderContent(translation);
-                updateContactEmails();
-                updateEffectiveDate();
-                updateLanguageSelector();
-                setupLanguageSelector();
-                console.log('App initialized successfully');
-            } catch (error) {
-                console.error('Failed to initialize app:', error);
-                // Fallback to English
-                try {
-                    console.log('Trying fallback to English...');
-                    const translation = await loadTranslation('en');
-                    renderContent(translation);
-                    updateContactEmails();
-                    updateEffectiveDate();
-                    updateLanguageSelector();
-                    setupLanguageSelector();
-                    console.log('Fallback successful');
-                } catch (fallbackError) {
-                    console.error('Failed to load fallback translation:', fallbackError);
-                    document.querySelector('.container').innerHTML = '<h1>Error loading content</h1><p>Please try refreshing the page.</p>';
-                }
-            }
-        }
-        
-        // Function to setup language selector event listener
-        function setupLanguageSelector() {
-            const selector = document.getElementById('languageSelect');
-            if (selector) {
-                selector.addEventListener('change', function(event) {
-                    const selectedLanguage = event.target.value;
-                    changeLanguage(selectedLanguage);
-                });
-            }
-        }
-        
-        // Start the application when DOM is loaded
-        document.addEventListener('DOMContentLoaded', initializeApp);
-    </script>
 </head>
 <body>
-    <!-- Novo wrapper que contém tudo -->
-    <div class="page-wrapper">
-        <div class="language-selector">
-            <select class="language-dropdown" id="languageSelect">
-                <option value="en">English</option>
-                <option value="pt">Português</option>
-                <option value="es">Español</option>
-                <option value="ar">العربية</option>
-                <option value="zh-Hans">简体中文</option>
-                <option value="zh-Hant">繁體中文</option>
-                <option value="da">Dansk</option>
-                <option value="nl">Nederlands</option>
-                <option value="fi">Suomi</option>
-                <option value="fr">Français</option>
-                <option value="de">Deutsch</option>
-                <option value="hi">हिन्दी</option>
-                <option value="id">Bahasa Indonesia</option>
-                <option value="it">Italiano</option>
-                <option value="ja">日本語</option>
-                <option value="ko">한국어</option>
-                <option value="no">Norsk Bokmål</option>
-                <option value="pl">Polski</option>
-                <option value="ru">Русский</option>
-                <option value="sv">Svenska</option>
-                <option value="th">ไทย</option>
-                <option value="tr">Türkçe</option>
-                <option value="uk">Українська</option>
-            </select>
+    <div class="container">
+        <div class="app-header">
+            <div class="app-icon">⏰</div>
+            <h1>TimePro</h1>
+            <p class="subtitle">Professional Time Calculator</p>
         </div>
         
-        <div class="container">
-            <!-- Content will be loaded dynamically based on user's language preference -->
+        <div class="section">
+            <h2><span class="section-icon">ℹ️</span> About TimePro</h2>
+            <p>TimePro is a professional time calculation app designed for iOS that helps you manage time calculations with precision and ease. All your data is stored locally on your device for maximum privacy.</p>
+        </div>
+        
+        <div class="section">
+            <h2><span class="section-icon">✨</span> Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Time Calculations</h3>
+                    <p>Perform precise time calculations with support for various formats and operations.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Local Storage</h3>
+                    <p>All your preferences and calculation history are stored locally on your device.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Multi-Language</h3>
+                    <p>Supports 23 languages with automatic language detection.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Privacy Focused</h3>
+                    <p>No data collection or transmission to external servers.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2><span class="section-icon">🛟</span> Support</h2>
+            <p>Need help with TimePro? We're here to assist you. Contact us via email and we'll get back to you as soon as possible.</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <strong>Email Support</strong><br>
+                        <a href="mailto:thompson.costa@icloud.com" style="color: var(--primary-color);">thompson.costa@icloud.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">🌐</span>
+                    <div>
+                        <strong>Languages Supported</strong><br>
+                        <span style="color: var(--secondary-text);">Support available in 23 languages</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="margin-top: 24px; display: flex; gap: 16px; flex-wrap: wrap;">
+                <a href="mailto:thompson.costa@icloud.com" class="button">Contact Support</a>
+                <a href="privacy-policy.html" class="button secondary">Privacy Policy</a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 Thompson Costa Honorato. For questions or support, contact <a href="mailto:thompson.costa@icloud.com">thompson.costa@icloud.com</a></p>
         </div>
     </div>
 </body>
