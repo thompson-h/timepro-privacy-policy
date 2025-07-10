@@ -138,6 +138,48 @@
             padding-left: 0;
         }
         
+        /* Back button styles */
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #007AFF;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 12px 20px;
+            border-radius: 8px;
+            background-color: rgba(0, 122, 255, 0.1);
+            border: 1px solid rgba(0, 122, 255, 0.2);
+            transition: all 0.2s ease;
+            margin-bottom: 24px;
+        }
+
+        .back-button:hover {
+            background-color: rgba(0, 122, 255, 0.15);
+            border-color: rgba(0, 122, 255, 0.3);
+            transform: translateY(-1px);
+        }
+
+        .back-button:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.3);
+        }
+
+        .back-button:active {
+            transform: translateY(0);
+        }
+
+        .back-button-icon {
+            font-size: 18px;
+            line-height: 1;
+        }
+
+        /* RTL support for back button */
+        [dir="rtl"] .back-button {
+            flex-direction: row-reverse;
+        }
+
         @media (max-width: 600px) {
             .container {
                 margin: 0;
@@ -156,6 +198,12 @@
                 min-width: 120px;
                 font-size: 12px;
                 padding: 6px 10px;
+            }
+            
+            .back-button {
+                font-size: 14px;
+                padding: 10px 16px;
+                margin-bottom: 20px;
             }
             
             /* Keep language selector on right side even for RTL on mobile */
@@ -333,6 +381,9 @@
             const container = document.querySelector('.container');
             if (!container) return;
             
+            // Preserve the back button
+            const backButton = container.querySelector('.back-button');
+            
             let html = `<h1>${translation.title}</h1>`;
             html += `<p>${translation.intro}</p>`;
             
@@ -359,7 +410,20 @@
             const footerContent = translation.footer.replace(/\{\{date\}\}/g, '<span class="effective-date">[DATE]</span>');
             html += `<div class="footer"><p>${footerContent}</p></div>`;
             
-            container.innerHTML = html;
+            // Create content div and insert after back button
+            const contentDiv = document.createElement('div');
+            contentDiv.innerHTML = html;
+            
+            // Clear container but preserve back button
+            container.innerHTML = '';
+            if (backButton) {
+                container.appendChild(backButton);
+            }
+            
+            // Add all content elements
+            while (contentDiv.firstChild) {
+                container.appendChild(contentDiv.firstChild);
+            }
         }
         
         // Function to update language selector
@@ -436,7 +500,12 @@
                     console.log('Fallback successful');
                 } catch (fallbackError) {
                     console.error('Failed to load fallback translation:', fallbackError);
-                    document.querySelector('.container').innerHTML = '<h1>Error loading content</h1><p>Please try refreshing the page.</p>';
+                    const container = document.querySelector('.container');
+                    const backButton = container.querySelector('.back-button');
+                    container.innerHTML = '<h1>Error loading content</h1><p>Please try refreshing the page.</p>';
+                    if (backButton) {
+                        container.insertBefore(backButton, container.firstChild);
+                    }
                 }
             }
         }
@@ -488,10 +557,11 @@
         </div>
         
         <div class="container">
+            <a href="index.html" class="back-button" aria-label="Back to Support Page">
+                <span class="back-button-icon" aria-hidden="true">←</span>
+                <span>Back to Support</span>
+            </a>
             <!-- Content will be loaded dynamically based on user's language preference -->
-            <div style="text-align: center; margin-bottom: 20px;">
-                <a href="index.html" style="color: #007AFF; text-decoration: none; font-size: 14px;">← Back to Support</a>
-            </div>
         </div>
     </div>
 </body>
