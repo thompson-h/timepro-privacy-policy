@@ -1,10 +1,10 @@
-# TimePro Privacy Policy
+# TimeMeister Privacy Policy
 
-This repository hosts the privacy policy for the TimePro iOS app.
+This repository hosts the privacy policy for the TimeMeister iOS app.
 
 ## Overview
 
-The privacy policy is served via GitHub Pages and is accessible from within the TimePro app.
+The privacy policy is served via GitHub Pages and is accessible from within the TimeMeister app.
 
 ## How to Update
 
