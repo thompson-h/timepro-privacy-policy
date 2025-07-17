@@ -65,47 +65,130 @@
             box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.1);
         }
 
-        /* Container com padding-top para não ficar atrás do dropdown */
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 30px;
-            padding-top: 70px;
-            background-color: var(--card-bg);
-            border-radius: 12px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        .hero-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 400px;
+            padding: 80px 60px;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: white;
+            width: 100%;
         }
-        h1 {
-            font-size: 28px;
-            font-weight: 600;
-            margin-bottom: 24px;
-            color: #1d1d1f;
+
+        .hero-container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
             text-align: center;
         }
-        h2 {
-            font-size: 20px;
+
+        .hero-badge {
+            font-size: 14px;
             font-weight: 500;
-            margin-top: 36px;
+            letter-spacing: 2px;
+            color: #888;
             margin-bottom: 16px;
+        }
+
+        .hero-title {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            color: white;
+        }
+
+        .hero-description {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #ccc;
+            margin-bottom: 32px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .content-section {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 80px 60px;
+            background-color: var(--card-bg);
+            color: var(--text-color);
+            width: 100%;
+        }
+
+        .content-container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .privacy-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .privacy-content h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 32px;
+            color: #1d1d1f;
+            text-align: left;
+        }
+        .privacy-content h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 20px;
             color: #1d1d1f;
         }
-        p {
-            margin-bottom: 16px;
+        .privacy-content p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 1.7;
         }
-        ul {
-            margin-bottom: 16px;
+        .privacy-content ul {
+            margin-bottom: 20px;
             padding-left: 24px;
         }
 
-        li {
+        .privacy-content li {
             margin-bottom: 8px;
+            font-size: 16px;
+            line-height: 1.6;
         }
 
-        .footer {
+        .footer-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 60px;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: white;
+            width: 100%;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
             text-align: center;
-            margin-top: 40px;
-            font-size: 14px;
-            color: var(--secondary-text);
+        }
+
+        .footer-text {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #ccc;
+        }
+
+        .footer-text a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .footer-text a:hover {
+            text-decoration: underline;
         }
 
         .loading {
@@ -117,28 +200,26 @@
         [dir="rtl"] {
             text-align: right;
         }
-        [dir="rtl"] .container {
+        [dir="rtl"] .privacy-content {
             text-align: right;
         }
-        [dir="rtl"] h1,
-        [dir="rtl"] h2 {
+        [dir="rtl"] .privacy-content h1,
+        [dir="rtl"] .privacy-content h2 {
             text-align: right;
         }
-        [dir="rtl"] .footer {
+        [dir="rtl"] .hero-container,
+        [dir="rtl"] .footer-container {
             text-align: right;
         }
-        /* Keep language selector on right side even for RTL */
         [dir="rtl"] .language-selector {
             right: 20px;
             left: auto;
         }
-
-        [dir="rtl"] ul {
+        [dir="rtl"] .privacy-content ul {
             padding-right: 24px;
             padding-left: 0;
         }
         
-        /* Back button styles */
         .back-button {
             display: inline-flex;
             align-items: center;
@@ -152,7 +233,7 @@
             background-color: rgba(0, 122, 255, 0.1);
             border: 1px solid rgba(0, 122, 255, 0.2);
             transition: all 0.2s ease;
-            margin-bottom: 24px;
+            margin-bottom: 40px;
         }
 
         .back-button:hover {
@@ -180,16 +261,27 @@
             flex-direction: row-reverse;
         }
 
-        @media (max-width: 600px) {
-            .container {
-                margin: 0;
-                padding: 20px;
-                padding-top: 60px;
-                border-radius: 0;
+        @media (max-width: 768px) {
+            .hero-section,
+            .content-section,
+            .footer-section {
+                padding: 60px 20px;
+            }
+            
+            .hero-title {
+                font-size: 36px;
+            }
+            
+            .privacy-content h1 {
+                font-size: 28px;
+            }
+            
+            .privacy-content h2 {
+                font-size: 20px;
             }
             
             .language-selector {
-                position: absolute;
+                position: fixed;
                 top: 10px;
                 right: 10px;
             }
@@ -203,10 +295,9 @@
             .back-button {
                 font-size: 14px;
                 padding: 10px 16px;
-                margin-bottom: 20px;
+                margin-bottom: 30px;
             }
             
-            /* Keep language selector on right side even for RTL on mobile */
             [dir="rtl"] .language-selector {
                 right: 10px;
                 left: auto;
@@ -378,11 +469,10 @@
             
             document.title = `TimeMeister ${translation.title}`;
             
-            const container = document.querySelector('.container');
+            const container = document.querySelector('.privacy-content');
             if (!container) return;
             
-            // Preserve the back button
-            const backButton = container.querySelector('.back-button');
+            // No need to preserve back button as it's outside the content area
             
             let html = `<h1>${translation.title}</h1>`;
             html += `<p>${translation.intro}</p>`;
@@ -408,22 +498,10 @@
             
             // Add footer
             const footerContent = translation.footer.replace(/\{\{date\}\}/g, '<span class="effective-date">[DATE]</span>');
-            html += `<div class="footer"><p>${footerContent}</p></div>`;
+            html += `<div style="margin-top: 60px; padding-top: 40px; border-top: 1px solid var(--border-color); font-size: 14px; color: var(--secondary-text);"><p>${footerContent}</p></div>`;
             
-            // Create content div and insert after back button
-            const contentDiv = document.createElement('div');
-            contentDiv.innerHTML = html;
-            
-            // Clear container but preserve back button
-            container.innerHTML = '';
-            if (backButton) {
-                container.appendChild(backButton);
-            }
-            
-            // Add all content elements
-            while (contentDiv.firstChild) {
-                container.appendChild(contentDiv.firstChild);
-            }
+            // Set the content directly
+            container.innerHTML = html;
         }
         
         // Function to update language selector
@@ -500,12 +578,8 @@
                     console.log('Fallback successful');
                 } catch (fallbackError) {
                     console.error('Failed to load fallback translation:', fallbackError);
-                    const container = document.querySelector('.container');
-                    const backButton = container.querySelector('.back-button');
+                    const container = document.querySelector('.privacy-content');
                     container.innerHTML = '<h1>Error loading content</h1><p>Please try refreshing the page.</p>';
-                    if (backButton) {
-                        container.insertBefore(backButton, container.firstChild);
-                    }
                 }
             }
         }
@@ -556,13 +630,31 @@
             </select>
         </div>
         
-        <div class="container">
-            <a href="index.html" class="back-button" aria-label="Back to Support Page">
-                <span class="back-button-icon" aria-hidden="true">←</span>
-                <span>Back to Support</span>
-            </a>
-            <!-- Content will be loaded dynamically based on user's language preference -->
-        </div>
+        <section class="hero-section">
+            <div class="hero-container">
+                <div class="hero-badge">PRIVACY POLICY</div>
+                <h1 class="hero-title">Your Privacy Matters</h1>
+                <p class="hero-description">Learn how TimeMeister protects your data and respects your privacy. All information is stored locally on your device.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="content-container">
+                <a href="index.html" class="back-button" aria-label="Back to Support Page">
+                    <span class="back-button-icon" aria-hidden="true">←</span>
+                    <span>Back to Support</span>
+                </a>
+                <div class="privacy-content">
+                    <!-- Content will be loaded dynamically based on user's language preference -->
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-section">
+            <div class="footer-container">
+                <p class="footer-text">© 2025 Thompson Costa Honorato</p>
+            </div>
+        </section>
     </div>
 </body>
 </html>
