@@ -265,6 +265,10 @@
             margin: 0 auto;
         }
 
+        .feature-container.reverse {
+            flex-direction: row-reverse;
+        }
+
         .feature-image {
             flex: 0 0 auto;
             display: flex;
@@ -273,8 +277,8 @@
         }
 
         .feature-image img {
-            width: 200px;
-            height: auto;
+            height: 400px;
+            width: auto;
             border-radius: 12px;
         }
 
@@ -320,7 +324,8 @@
                 padding: 60px 20px;
             }
 
-            .feature-container {
+            .feature-container,
+            .feature-container.reverse {
                 flex-direction: column;
                 text-align: center;
                 gap: 40px;
@@ -383,6 +388,20 @@
                 <h2 class="feature-title">Calculate time like never before</h2>
                 <p class="feature-description">Add, subtract, multiply, and divide hours, minutes, and seconds with ease. TimeMeister's advanced calculator interface provides professional-grade time calculation capabilities with precision and speed.</p>
                 <p class="feature-description">Experience seamless time arithmetic operations designed for productivity professionals, contractors, and anyone who needs accurate time calculations in their daily workflow.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <div class="feature-container reverse">
+            <div class="feature-image">
+                <img src="Images/exemple-2.png" alt="TimeMeister Format Options">
+            </div>
+            <div class="feature-content">
+                <div class="feature-badge">FLEXIBLE TIME FORMATS</div>
+                <h2 class="feature-title">Switch between formats seamlessly</h2>
+                <p class="feature-description">Choose the precision that matches your professional needs. TimeMeister supports both HH:MM and HH:MM:SS formats, allowing you to work with the exact level of detail your project requires.</p>
+                <p class="feature-description">Whether you're tracking billable hours or managing precise project timelines, adapt your time format instantly without losing calculation accuracy or workflow momentum.</p>
             </div>
         </div>
     </section>
