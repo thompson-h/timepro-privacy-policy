@@ -569,6 +569,13 @@
                 width: 100%;
                 max-width: 280px;
             }
+            
+            /* Mobile-specific image constraints for specific problematic images */
+            .feature-image img.mobile-constrained {
+                max-width: calc(100vw - 40px);
+                height: auto;
+                object-fit: contain;
+            }
         }
     </style>
     <script src="config.js"></script>
@@ -608,7 +615,7 @@
     <section class="feature-section">
         <div class="feature-container reverse">
             <div class="feature-image">
-                <img src="Images/exemple-2.png" alt="TimeMeister Format Options">
+                <img src="Images/exemple-2.png" alt="TimeMeister Format Options" class="mobile-constrained">
             </div>
             <div class="feature-content">
                 <div class="feature-badge">FLEXIBLE TIME FORMATS</div>
@@ -660,7 +667,7 @@
     <section class="feature-section">
         <div class="feature-container reverse">
             <div class="feature-image">
-                <img src="Images/exemple-6.png" alt="TimeMeister Clock Formats">
+                <img src="Images/exemple-6.png" alt="TimeMeister Clock Formats" class="mobile-constrained">
             </div>
             <div class="feature-content">
                 <div class="feature-badge">REAL-TIME INTEGRATION</div>
