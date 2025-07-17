@@ -244,6 +244,68 @@
             text-decoration: underline;
         }
         
+        .feature-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 600px;
+            padding: 80px 60px;
+            background-color: white;
+            color: var(--text-color);
+            width: 100%;
+        }
+
+        .feature-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 1200px;
+            width: 100%;
+            gap: 60px;
+            margin: 0 auto;
+        }
+
+        .feature-image {
+            flex: 0 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .feature-image img {
+            width: 200px;
+            height: auto;
+            border-radius: 12px;
+        }
+
+        .feature-content {
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .feature-badge {
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            color: var(--secondary-text);
+            margin-bottom: 16px;
+        }
+
+        .feature-title {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            color: var(--text-color);
+        }
+
+        .feature-description {
+            font-size: 18px;
+            line-height: 1.5;
+            color: var(--secondary-text);
+            margin-bottom: 32px;
+        }
+
         @media (max-width: 768px) {
             .hero-section {
                 padding: 60px 20px;
@@ -252,6 +314,20 @@
             .hero-container {
                 flex-direction: column;
                 text-align: center;
+            }
+
+            .feature-section {
+                padding: 60px 20px;
+            }
+
+            .feature-container {
+                flex-direction: column;
+                text-align: center;
+                gap: 40px;
+            }
+
+            .feature-title {
+                font-size: 36px;
             }
 
             .hero-content {
@@ -293,6 +369,20 @@
             </div>
             <div class="hero-image">
                 <img src="Images/app.png" alt="TimeMeister App Screenshot">
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <div class="feature-container">
+            <div class="feature-image">
+                <img src="Images/example-1.png" alt="TimeMeister Calculator Interface">
+            </div>
+            <div class="feature-content">
+                <div class="feature-badge">ADVANCED TIME CALCULATIONS</div>
+                <h2 class="feature-title">Calculate time like never before</h2>
+                <p class="feature-description">Add, subtract, multiply, and divide hours, minutes, and seconds with ease. TimeMeister's advanced calculator interface provides professional-grade time calculation capabilities with precision and speed.</p>
+                <p class="feature-description">Experience seamless time arithmetic operations designed for productivity professionals, contractors, and anyone who needs accurate time calculations in their daily workflow.</p>
             </div>
         </div>
     </section>
