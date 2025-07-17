@@ -44,8 +44,16 @@
             background-color: var(--card-bg);
             background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
             color: white;
-            gap: 40px;
+            width: 100%;
+        }
+
+        .hero-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             max-width: 1200px;
+            width: 100%;
+            gap: 40px;
             margin: 0 auto;
         }
 
@@ -238,9 +246,12 @@
         
         @media (max-width: 768px) {
             .hero-section {
+                padding: 60px 20px;
+            }
+
+            .hero-container {
                 flex-direction: column;
                 text-align: center;
-                padding: 60px 20px;
             }
 
             .hero-content {
@@ -269,18 +280,20 @@
 </head>
 <body>
     <section class="hero-section">
-        <div class="hero-content">
-            <div class="hero-badge">INTRODUCING TIMEMEISTER</div>
-            <h1 class="hero-title">Professional Time Calculator</h1>
-            <p class="hero-description">TimeMeister helps you manage time calculations with precision and ease. All your data is stored locally on your device for maximum privacy.</p>
-            <div>
-                <a href="https://apps.apple.com/us/app/timemeister/id6748468456?l=pt-BR&itscg=30200&itsct=apps_box_badge&mttnsubad=6748468456" style="display: inline-block;">
-                    <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1752710400" alt="Baixe na App Store" style="width: 180px; height: 60px; vertical-align: middle; object-fit: contain;" />
-                </a>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">INTRODUCING TIMEMEISTER</div>
+                <h1 class="hero-title">Professional Time Calculator</h1>
+                <p class="hero-description">TimeMeister helps you manage time calculations with precision and ease. All your data is stored locally on your device for maximum privacy.</p>
+                <div>
+                    <a href="https://apps.apple.com/us/app/timemeister/id6748468456?l=pt-BR&itscg=30200&itsct=apps_box_badge&mttnsubad=6748468456" style="display: inline-block;">
+                        <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1752710400" alt="Baixe na App Store" style="width: 180px; height: 60px; vertical-align: middle; object-fit: contain;" />
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="hero-image">
-            <img src="Images/app.png" alt="TimeMeister App Screenshot">
+            <div class="hero-image">
+                <img src="Images/app.png" alt="TimeMeister App Screenshot">
+            </div>
         </div>
     </section>
 
