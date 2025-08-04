@@ -5,8 +5,8 @@ Example:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TimeMeister Privacy Policy - Learn how we protect your data">
-    <title>TimeMeister Privacy Policy</title>
+    <meta name="description" content="TimePro Privacy Policy - Learn how we protect your data">
+    <title>TimePro Privacy Policy</title>
     <style>
         :root {
             --primary-color: #007AFF;
@@ -194,7 +194,7 @@ Example:
         const TRANSLATIONS = {
             'en': {
                 title: 'Privacy Policy',
-                intro: 'This privacy policy applies to the TimeMeister app (hereby referred to as "Application") for mobile devices that was created by Thompson Costa Honorato (hereby referred to as "Service Provider") as a Commercial service. This service is intended for use "AS IS".',
+                intro: 'This privacy policy applies to the TimePro app (hereby referred to as "Application") for mobile devices that was created by Thompson Costa Honorato (hereby referred to as "Service Provider") as a Commercial service. This service is intended for use "AS IS".',
                 sections: [
                     {
                         title: 'What information does the Application obtain and how is it used?',
@@ -273,7 +273,7 @@ Example:
             },
             'pt': {
                 title: 'Política de Privacidade',
-                intro: 'Esta política de privacidade aplica-se ao aplicativo TimeMeister (doravante referido como "Aplicativo") para dispositivos móveis que foi criado por Thompson Costa Honorato (doravante referido como "Provedor de Serviços") como um serviço Comercial. Este serviço destina-se ao uso "COMO ESTÁ".',
+                intro: 'Esta política de privacidade aplica-se ao aplicativo TimePro (doravante referido como "Aplicativo") para dispositivos móveis que foi criado por Thompson Costa Honorato (doravante referido como "Provedor de Serviços") como um serviço Comercial. Este serviço destina-se ao uso "COMO ESTÁ".',
                 sections: [
                     {
                         title: 'Que informações o Aplicativo obtém e como são usadas?',
@@ -298,7 +298,7 @@ Example:
             },
             'es': {
                 title: 'Política de Privacidad',
-                intro: 'Esta política de privacidad se aplica a la aplicación TimeMeister (en adelante denominada "Aplicación") para dispositivos móviles que fue creada por Thompson Costa Honorato (en adelante denominado "Proveedor de Servicios") como un servicio Comercial. Este servicio está destinado para uso "TAL COMO ESTÁ".',
+                intro: 'Esta política de privacidad se aplica a la aplicación TimePro (en adelante denominada "Aplicación") para dispositivos móviles que fue creada por Thompson Costa Honorato (en adelante denominado "Proveedor de Servicios") como un servicio Comercial. Este servicio está destinado para uso "TAL COMO ESTÁ".',
                 // ... traduções em espanhol
             }
             // ... outras traduções
@@ -388,7 +388,7 @@ Example:
                 document.documentElement.lang = this.currentLanguage;
                 
                 // Update page title
-                document.title = `${translation.title} - TimeMeister`;
+                document.title = `${translation.title} - TimePro`;
                 
                 // Render content
                 let html = `<h1>${translation.title}</h1>`;
@@ -472,7 +472,7 @@ Exemplo de arquivo de tradução (translations/pt.json):
   "language": "pt",
   "languageName": "Português (Brasil)",
   "title": "Política de Privacidade",
-  "intro": "Esta política de privacidade aplica-se ao aplicativo TimeMeister (doravante referido como \"Aplicativo\") para dispositivos móveis que foi criado por Thompson Costa Honorato (doravante referido como \"Provedor de Serviços\") como um serviço Comercial. Este serviço destina-se ao uso \"COMO ESTÁ\".",
+  "intro": "Esta política de privacidade aplica-se ao aplicativo TimePro (doravante referido como \"Aplicativo\") para dispositivos móveis que foi criado por Thompson Costa Honorato (doravante referido como \"Provedor de Serviços\") como um serviço Comercial. Este serviço destina-se ao uso \"COMO ESTÁ\".",
   "sections": [
     {
       "title": "Que informações o Aplicativo obtém e como são usadas?",
@@ -685,8 +685,8 @@ function generateStaticHTML(template, langCode, translation) {
     
     // Update title
     html = html.replace(
-        '<title>TimeMeister Privacy Policy</title>',
-        `<title>${translation.title} - TimeMeister</title>`
+        '<title>TimePro Privacy Policy</title>',
+        `<title>${translation.title} - TimePro</title>`
     );
     
     return html;
@@ -796,7 +796,7 @@ async function generateSitemap(languages) {
 }
 
 async function generateRobotsTxt() {
-    const robots = `# Robots.txt for TimeMeister Privacy Policy
+    const robots = `# Robots.txt for TimePro Privacy Policy
 User-agent: *
 Allow: /
 
@@ -817,7 +817,7 @@ Package.json:
 {
   "name": "timepro-privacy-policy",
   "version": "2.0.0",
-  "description": "Multi-language privacy policy for TimeMeister iOS app",
+  "description": "Multi-language privacy policy for TimePro iOS app",
   "scripts": {
     "build": "node scripts/build.js",
     "dev": "python3 -m http.server 8000 -d dist",

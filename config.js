@@ -1,4 +1,4 @@
-// Global configuration constants for TimeMeister Privacy Policy
+// Global configuration constants for TimePro Privacy Policy
 // These values are the same across all languages
 
 // Contact email configuration

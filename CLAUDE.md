@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This repository hosts the privacy policy for the TimeMeister iOS app, served as a static website via GitHub Pages. The privacy policy is accessible from within the TimeMeister app and provides users with information about data collection and usage practices.
+This repository hosts the privacy policy for the TimePro iOS app, served as a static website via GitHub Pages. The privacy policy is accessible from within the TimePro app and provides users with information about data collection and usage practices.
 
 ## Architecture
 
